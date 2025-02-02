@@ -10,28 +10,21 @@ class Solution:
             "M":             1000
         }
 
-        # stack = [V]       5
-        # V > I            5 - I = 4
-        # stack = [C]
-        # C > X            C - x = 94
-        # stack = []
-
-
-
-        stack = []
+        prev_num = 0
         ans = 0
+
+
         for i in range(len(s)-1, -1, -1):
-            if stack and roman_dict[stack[-1]] > roman_dict[s[i]]:
-                ans -= roman_dict[s[i]]
             
+            value = roman_dict[s[i]]
+
+            if value >= prev_num:
+                ans += value
             else:
-             
-                stack.append(s[i])
 
+                ans -= value
 
-        if stack:
-            for char in stack:
-                ans += roman_dict[char]
+            prev_num = value 
 
 
         return ans
