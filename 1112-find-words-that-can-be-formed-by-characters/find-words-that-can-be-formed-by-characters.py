@@ -2,37 +2,20 @@ class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         
 
-        char_counter = Counter(chars)
+        ans = []
 
-        temp = deepcopy(char_counter)
-        
-        valid = True
-        count = 0
-        for st in words:
-            # hello
-
-            for char in st:
-                # h
-                if char in char_counter:
-                    if char_counter[char] > 0:
-                        char_counter[char] -= 1
-                    else:
-                        valid = False
-                        break
-
-                else:
-                    valid = False
+        for word in words:
+            for i in word:
+                if chars.count(i) < word.count(i):
                     break
+            else:
+                ans.append(len(word))
 
-            char_counter = deepcopy(temp)
 
-            if valid:
-                print(st, valid)
-                count += len(st)
-      
-            valid = True
+        return sum(ans)
 
-        return count
 
-            
+
+
+
 
