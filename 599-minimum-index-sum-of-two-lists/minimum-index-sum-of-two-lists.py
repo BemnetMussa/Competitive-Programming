@@ -4,20 +4,26 @@ class Solution:
 
         least_index = float("inf")
         ans = []
-        for i in range(len(list1)):
 
-            for j in range(len(list2)):
-                
-                if list1[i] == list2[j]:
-                    if least_index > (i + j):
+        list1_dict = {}
+
+        for index, val in enumerate(list1):
+            list1_dict[val] = index
+
+
+        for index, val in enumerate(list2):
+            
+            if val in list1:
+                sum_index = index + list1_dict[val]
+                if val == list1[list1_dict[val]]:
+                    if sum_index < least_index:
                         ans.clear()
-                        least_index = i + j
-                        
-                    elif least_index < (i + j):
-                        continue
+                        least_index = sum_index
+                        ans.append(val)
+                    
+                    elif sum_index == least_index:
+                        ans.append(val)
 
-                    ans.append(list1[i])
-                 
-                
+
 
         return ans
