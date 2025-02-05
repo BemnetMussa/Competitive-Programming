@@ -41,8 +41,8 @@ class RandomizedSet:
 
 
     def getRandom(self) -> int:
-        return random.choice(self.arr)
-
+        random_index = random.randint(0, len(self.arr) - 1)
+        return self.arr[random_index]
 
 
 
