@@ -14,11 +14,10 @@ class Solution:
         for word in words:
             word_counter = set(word.lower())
 
-            for key in a_key:
-                
-                # if subset of key
-                if  word_counter <= key:
-                    res.append(word)
+            # if subset of row keys
+            if  word_counter <= firstRow_set or word_counter <= secondRow_set or word_counter <= thridRow_set:
+
+                res.append(word)
 
         return res
 
