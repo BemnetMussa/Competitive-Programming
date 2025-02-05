@@ -2,20 +2,22 @@ class Solution:
     def findWords(self, words: List[str]) -> List[str]:
         
 
-        firstRow_counter = Counter("qwertyuiop")
-        secondRow_counter = Counter("asdfghjkl")
-        thridRow_counter = Counter("zxcvbnm")
+        firstRow_set = set("qwertyuiop")
+        secondRow_set = set("asdfghjkl")
+        thridRow_set = set("zxcvbnm")
 
 
-        a_key = [firstRow_counter, secondRow_counter, thridRow_counter]
+        a_key = [firstRow_set, secondRow_set, thridRow_set]
 
 
         res = []
         for word in words:
-            word_counter = Counter(word.lower())
-            
+            word_counter = set(word.lower())
+
             for key in a_key:
-                if  word_counter.keys() <= key.keys():
+                
+                # if subset of key
+                if  word_counter <= key:
                     res.append(word)
 
         return res
