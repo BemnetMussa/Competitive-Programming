@@ -7,7 +7,7 @@ class RandomizedSet:
         
 
     def insert(self, val: int) -> bool:
-        if val in self.arr:
+        if val in self.dict_index:
             return False
     
         self.arr.append(val)
@@ -17,7 +17,7 @@ class RandomizedSet:
         
 
     def remove(self, val: int) -> bool:
-        if val not in self.arr:
+        if val not in self.dict_index:
             return False
 
         # getting the index the value
