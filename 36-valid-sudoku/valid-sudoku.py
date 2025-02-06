@@ -3,7 +3,7 @@ class Solution:
         row = len(board)
         col = len(board[0])
 
-        # Check rows and columns
+        # Check rows and columns for duplicates
         for i in range(row):
             if not self.isValid(board[i]):  
                 return False
@@ -26,6 +26,9 @@ class Solution:
                     return False
                 seen.add(char)
         return True
+
+
+
 
     def checkSubGrid(self, board, r, c):
     
