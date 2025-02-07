@@ -6,8 +6,7 @@ class Solution:
             for j in range(i+1, len(nums)):
 
                 pair = [i, j]
-                pair.sort()
-
+       
           
                 if (i * j) % k == 0 and nums[i] == nums[j]:
                     if pair not in pairs:
