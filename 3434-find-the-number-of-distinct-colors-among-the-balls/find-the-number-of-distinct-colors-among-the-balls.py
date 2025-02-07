@@ -17,24 +17,16 @@ class Solution:
                 if color_count[pop_colored] <= 0:
                     del color_count[pop_colored]
 
-                # updating the ball of the color
-                query_count[query[0]] = query[1]
+            # updating the ball of the color
+            query_count[query[0]] = query[1]
 
-                # updating the color_count with the new color
-                if color_count[query[1]] > 0:
-                    color_count[query[1]] += 1
-                else:
-                    color_count[query[1]] = 1
-
+            # updating the color_count with the new color
+            if color_count[query[1]] > 0:
+                color_count[query[1]] += 1
             else:
-                query_count[query[0]] = query[1]
+                color_count[query[1]] = 1
 
-                # updating the color_count with the new color
-                if color_count[query[1]] > 0:
-                    color_count[query[1]] += 1
-                else:
-                    color_count[query[1]] = 1
-
+        
 
 
             ans.append(len(color_count))
