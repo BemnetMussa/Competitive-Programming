@@ -12,6 +12,5 @@ class Solution:
                 if (i * j) % k == 0 and nums[i] == nums[j]:
                     if pair not in pairs:
                         pairs.append(pair)
-                        
-        print(pairs)
+  
         return len(pairs)
