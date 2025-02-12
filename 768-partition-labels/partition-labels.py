@@ -5,24 +5,27 @@ class Solution:
 
         s_counter = Counter(s)
         freq = 0
-        curr = []
+        curr = {}
 
         ans = []
 
         for char in s:
-            if char in curr:
-                curr.append(char)
-                freq -= 1
 
-            else:
-                curr.append(char)
+            if char not in curr:
+                curr[char] = s_counter[char]
                 freq += s_counter[char]
-                freq -= 1
+
+            freq -= 1
 
             if freq == 0:
-                ans.append(len(curr))
+                count = 0
+                count += sum(s_counter[key] for key in curr)
+                ans.append(count)
+            
                 curr.clear()
-                
+                freq = 0
+
+        
 
         
         return ans
