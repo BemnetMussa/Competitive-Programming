@@ -14,7 +14,12 @@ class Solution:
 
             seen.add(s[right])
 
-            if max_len < len(seen):
-                max_len = len(seen)
+            max_len = max(max_len, right -left + 1)
                 
         return max_len
+
+
+        
+
+
+
