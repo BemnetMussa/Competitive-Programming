@@ -1,45 +1,33 @@
+from collections import Counter
+
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
+        if not s or not t:
+            return ""
+
+        counter_t = Counter(t)
+        window = Counter()
         
-
-        minimum_sub = s*2
-   
-        dict_t = Counter(t)
-
-        dict_valid = {}
-        
-
+        have, need = 0, len(counter_t)
         left = 0
+        ans = float("inf")
+        result = ""
+
         for right in range(len(s)):
-
-            if s[right] in dict_t:
-                dict_valid[s[right]] = 1 + dict_valid.get(s[right], 0)
-
-            while dict_valid.keys() == dict_t.keys():
-               
-                for key in dict_t.keys():
-                 
-                    if dict_valid[key] < dict_t[key]:
-                        break
-                
-                else:
-                    if right-left + 1 < len(minimum_sub):
-                        minimum_sub = s[left:right + 1]
-
-                    if s[left] in dict_valid.keys():
-                        dict_valid[s[left]] -= 1
-                        if dict_valid[s[left]] == 0:
-                            del dict_valid[s[left]]
-
-                    left += 1
-
-                    continue
-                break
+            window[s[right]] += 1
             
+            if s[right] in counter_t and window[s[right]] == counter_t[s[right]]:
+                have += 1
 
-        return minimum_sub if len(minimum_sub) != len(s*2) else ""
+            while have == need:  # valid window
+                if (right - left + 1) < ans:
+                    ans = right - left + 1
+                    result = s[left:right+1]
 
-    
-
-
-
+                window[s[left]] -= 1
+                if s[left] in counter_t and window[s[left]] < counter_t[s[left]]:
+                    have -= 1
+                
+                left += 1
+        
+        return result
