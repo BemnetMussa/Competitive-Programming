@@ -2,7 +2,7 @@ class Solution:
     def minWindow(self, s: str, t: str) -> str:
         
 
-        minimum_sub = s*10
+        minimum_sub = s*2
    
         dict_t = Counter(t)
 
@@ -37,7 +37,7 @@ class Solution:
                 break
             
 
-        return minimum_sub if len(minimum_sub) != len(s*10) else ""
+        return minimum_sub if len(minimum_sub) != len(s*2) else ""
 
     
 
