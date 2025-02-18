@@ -1,23 +1,23 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         
-        n = len(nums)
-        # Initialize the result array with 1s
-        result = [1] * n
+        # answer default values 1
+        ans = [1] * len(nums)
 
-        # Compute prefix products
+
+        # preforming the prefix product
         prefix = 1
-        for i in range(n):
-            result[i] = prefix
+        for i in range(len(nums)):
+            ans[i] = prefix
             prefix *= nums[i]
 
- 
-        # Compute suffix products and multiply with prefix values in result
-        suffix = 1
-        for i in range(n - 1, -1, -1):
-            result[i] *= suffix
-            suffix *= nums[i]
-     
-        print(result)
         
-        return result
+        # preforming the postfix product
+        postfix = 1
+        for i in range(len(nums)-1, -1, -1):
+            ans[i] *= postfix
+            postfix *= nums[i]
+
+        
+        # Time and space complexity with O(n) and O(1) respectively
+        return ans
