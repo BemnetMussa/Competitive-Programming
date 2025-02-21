@@ -16,7 +16,7 @@ class Solution:
         diff = 0
         res = [ord(c) - ord("a") for c in s]
 
-        for i in range(len(f[:-1])):
+        for i in range(len(f)-1):
             diff += f[i]
             res[i] = (diff + res[i]) % 26
 
