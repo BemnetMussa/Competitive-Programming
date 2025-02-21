@@ -8,8 +8,7 @@ class Solution:
         
             
          
-        if not head:
-            return head
+    
     
         dummy = ListNode(next=head)
         curr = dummy
