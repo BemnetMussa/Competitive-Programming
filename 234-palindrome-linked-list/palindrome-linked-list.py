@@ -5,12 +5,18 @@
 #         self.next = next
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
-        prev = None
-        slow,fast = head,head
+        
+        # using fast and slow approche
+        fast = head
+        slow = head
+        
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
 
+        
+        # reverse the half of the linked list
+        prev = None
         curr = slow
         while curr:
             temp = curr.next
@@ -18,10 +24,16 @@ class Solution:
             prev = curr
             curr = temp
 
-        while prev:
-            if head.val != prev.val:
+        # comparing there values
+        back = prev
+        front = head
+
+        while back:
+            if back.val != front.val:
                 return False
-            head = head.next
-            prev = prev.next
+            front = front.next
+            back = back.next
+
         return True
-        
+
+
