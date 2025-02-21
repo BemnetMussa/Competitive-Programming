@@ -17,7 +17,7 @@ class Solution:
         # Number of full k-sized groups
         steps = leng // k
 
-        # Swapping
+        
         curr = head
         temp = None
         new_head = None  
@@ -40,17 +40,9 @@ class Solution:
         return new_head if new_head else head  
 
     def reverse(self, head, k):
-        before = None
-        curr = head
-        temp = head
-        index = 0
-
-        while index < k and curr:
-            curr = curr.next
-            temp.next = before
-            before = temp
-            temp = curr
-            index += 1
-
+        prev, curr = None, head
+        while k > 0:
+            curr.next, prev, curr = prev, curr, curr.next
+            k -= 1
         head.next = curr
-        return before
+        return prev
