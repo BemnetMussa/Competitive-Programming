@@ -12,9 +12,9 @@ class Solution:
             head = head.next 
 
         for i in unique:
-            dummy.next = ListNode(i)  # Create a new node for each unique value
-            dummy = dummy.next  # Move the dummy pointer to the new node
+            dummy.next = ListNode(i)  
+            dummy = dummy.next  
 
-        dummy = None  # Set dummy to None (not necessary)
+        dummy = None  
 
-        return new.next  # Return the modified list starting from the first real node
+        return new.next 
