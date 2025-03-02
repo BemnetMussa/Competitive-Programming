@@ -19,10 +19,8 @@ class Solution:
         # Iterate over prefix_sum array
         for i in range(len(prefix_sum)):
             if prefix_sum[i] in index_map:
-                # If prefix sum is seen before, update max_length
                 max_length = max(max_length, i - index_map[prefix_sum[i]])
             else:
-                # Store the first occurrence of this prefix sum
                 index_map[prefix_sum[i]] = i
 
         return max_length
