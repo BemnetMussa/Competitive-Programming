@@ -4,23 +4,18 @@ class Solution:
 
         stack = []
         next_map = {}
-        for i in range(len(nums2) -1, -1, -1):
-         
-            while stack and stack[-1] < nums2[i]:
-                stack.pop()
+        for num in nums2:
 
-            if stack:
-                next_map[nums2[i]] = stack[-1]
-            else:
-                next_map[nums2[i]] = -1
+            while stack and num > stack[-1]:
+                smaller = stack.pop()
+                next_map[smaller] = num
 
-            stack.append(nums2[i])
+            stack.append(num)
 
-        ans = []
-        for num in nums1:
-            ans.append(next_map[num])
-   
-        return ans
+        for num in stack:
+            next_map[num] = -1
+
+        return [next_map[num] for num in nums1]
 
         
 
