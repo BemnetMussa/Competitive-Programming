@@ -3,24 +3,19 @@ class Solution:
         
         op = 0
 
-        left = 0
-        right = len(nums) -1 
+        hashMap = defaultdict(int)
 
-        nums.sort()
-        
-        while (left < right):
-            zsum = nums[left] + nums[right]
+        for num in nums:
+            diff = k - num
 
-            if zsum == k:
-                left += 1
-                right -= 1
+            if diff in hashMap:
                 op += 1
+                hashMap[diff] -= 1
 
-            elif zsum > k:
-                right -= 1
-
+                if hashMap[diff] == 0:
+                    del hashMap[diff] 
             else:
-                left += 1
+                hashMap[num] += 1
 
         return op
         
