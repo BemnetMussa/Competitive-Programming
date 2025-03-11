@@ -2,20 +2,17 @@ class Solution:
     def sumSubarrayMins(self, arr: List[int]) -> int:
         MOD = 10 ** 9 + 7
         res = 0
-        stack = [] # (index, num)
+        stack = []
+        arr.append(float("-inf"))
 
-        for i, n in enumerate(arr):
-            while stack and n < stack[-1][1]:
-                j, m = stack.pop()
-                left = j - stack[-1][0] if stack else j + 1
-                right = i - j
-                res = (res + m * left * right) % MOD
-            stack.append((i, n))
+        for i in range(len(arr)):
 
-        for i in range(len(stack)):
-            j, n = stack[i]
-            left = j - stack[i - 1][0] if i > 0 else j + 1
-            right = len(arr) - j
-            res = (res + n * left * right) % MOD
+            while stack and arr[i] < arr[stack[-1]]:
+                left = stack.pop()
+                right = i - 1
+                prev_index = stack[-1] if stack else -1
+                res += (left - prev_index) * (right - left + 1) * arr[left]
+            
+            stack.append(i)
 
-        return res
+        return res % MOD
