@@ -1,20 +1,11 @@
 class Solution:
     def trailingZeroes(self, n: int) -> int:
+        if n < 5:
+            return 0  
         
-        def trailing(n):
-            if n == 1 or n == 0 :
-                return 1
-
-            return n * trailing(n-1)
-
-        val = trailing(n)
-
         count = 0
-
-        while val % 10 == 0:
-
-            count += 1
-
-            val //= 10
-
+        while n >= 5:
+            count += n // 5  
+            n //= 5  
+        
         return count
