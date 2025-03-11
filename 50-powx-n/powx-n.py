@@ -5,7 +5,7 @@ class Solution:
         if n < 0:
             return 1 / self.myPow(x, -n)  # Flip the sign of n and invert x
         
-        
+        # for sake of optmization 
         if n % 2 == 0:
             half = self.myPow(x, n // 2)
             return half * half  # For even exponents
