@@ -1,9 +1,6 @@
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
 
-        if rowIndex == 0:
-            return [1]
-        
         def triangle(idx, prevArr):
             if idx == rowIndex:
                 return prevArr
