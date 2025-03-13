@@ -1,16 +1,20 @@
 class Solution:
-    def getRow(self, rowIndex: int) -> list[int]:
+    def getRow(self, rowIndex: int) -> List[int]:
+
+        if rowIndex == 0:
+            return [1]
         
-        res = [1]
-
-        for i in range(rowIndex):
-            arr = [0] * (len(res) + 1)
-            for j in range(len(res)):
-                arr[j] += res[j]
-                arr[j+1] += res[j]
-
-            res = arr
-
-
-
-        return res
+        def triangle(idx, prevArr):
+            if idx == rowIndex:
+                return prevArr
+            
+            # Build the next row
+            nums = [0] * (len(prevArr) + 1)
+            for i in range(len(prevArr)):
+                nums[i] += prevArr[i]
+                nums[i + 1] += prevArr[i]
+            
+            # Move to the next row recursively
+            return triangle(idx + 1, nums)
+        
+        return triangle(0, [1])
