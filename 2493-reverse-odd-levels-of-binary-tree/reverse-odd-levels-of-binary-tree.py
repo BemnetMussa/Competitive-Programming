@@ -12,9 +12,9 @@ class Solution:
         if level % 2 == 0:
             left.val, right.val = right.val, left.val
 
-        level += 1
-        self.bfs(left.left, right.right, level )
-        self.bfs(left.right, right.left, level )
+      
+        self.bfs(left.left, right.right, level+1 )
+        self.bfs(left.right, right.left, level+1)
 
 
     def reverseOddLevels(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
