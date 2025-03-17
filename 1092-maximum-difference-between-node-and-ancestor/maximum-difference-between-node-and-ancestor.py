@@ -10,7 +10,7 @@ class Solution:
         if not root:
             return 0
 
-        return self.dfs(root, float("-inf"), float("inf"), 0)
+        return self.dfs(root, root.val, root.val, 0)
 
     def dfs(self, node, curr_max, curr_min, zmax):
         if not node:
@@ -20,7 +20,7 @@ class Solution:
         curr_min = min(node.val, curr_min)
         print(node.val, curr_max, curr_min)
 
-        zmax = max(zmax, self.dfs(node.left, curr_max, curr_min, zmax))
-        zmax = max(zmax, self.dfs(node.right, curr_max, curr_min, zmax))
-
-        return zmax
+        left_max = self.dfs(node.left, curr_max, curr_min, zmax)
+        right_max = self.dfs(node.right, curr_max, curr_min, zmax)
+        
+        return max(left_max, right_max)
