@@ -14,18 +14,8 @@ class Solution:
         elif not root2:
             return root1
 
-        def bfs(node1, node2):
-            if not node2 and not node1:
-                return 
-            elif not node1:
-                return node2
-            elif not node2:
-                return node1
-            
-            node2.val = node2.val + node1.val  
-            node2.left = bfs(node1.left, node2.left)
-            node2.right = bfs(node1.right, node2.right)
-
-            return node2
+        merged = TreeNode(root1.val + root2.val)
+        merged.left = self.mergeTrees(root1.left, root2.left)
+        merged.right = self.mergeTrees(root1.right, root2.right)
         
-        return bfs(root1, root2)
+        return merged
