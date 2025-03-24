@@ -2,24 +2,14 @@ class Solution:
     def validStrings(self, n: int) -> List[str]:
         
         ans = []
-        bits = ["1", "0"]
-        def dfs(arr):
-            if len(arr) == n:
-                ans.append("".join(arr))
+        def backtrack(curr):
+            if len(curr) == n:
+                ans.append(curr)
                 return 
+        
+            backtrack(curr + "1")
+            if not curr or curr[-1] == "1":
+                backtrack(curr + "0")
 
-
-            for bit in bits:
-                if arr and arr[-1] == "0" and bit == "0":
-                    continue
-          
-                arr.append(bit)
-                dfs(arr)
-                arr.pop()
-            
-
-            return ans
-
-        return dfs([])
-
-
+        backtrack("")
+        return ans
