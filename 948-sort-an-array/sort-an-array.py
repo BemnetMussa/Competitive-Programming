@@ -1,47 +1,43 @@
-
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
-        self.mergeSort(nums, 0, len(nums) - 1)
-        return nums
+        def merge(left_val, right_val):
+            left = 0
+            right = 0
 
-    def mergeSort(self, arr: List[int], left: int, right: int):
-        if left < right:
-            mid = (left + right) // 2
-            self.mergeSort(arr, left, mid)
-            self.mergeSort(arr, mid + 1, right)
-            self.merge(arr, left, mid, right)
+            merge = []
 
-    def merge(self, arr: List[int], left: int, mid: int, right: int):
-        n1 = mid - left + 1
-        n2 = right - mid
+            while left < len(left_val) and right < len(right_val):
+                if left_val[left] < right_val[right]:
+                    merge.append(left_val[left])
+                    left += 1
+                else:
+                    merge.append(right_val[right])
+                    right += 1
 
-        L = [0] * n1
-        R = [0] * n2
+            while left < len(left_val):
+                merge.append(left_val[left])
+                left += 1
+            
+            while right < len(right_val):
+                merge.append(right_val[right])
+                right += 1
 
-        for i in range(n1):
-            L[i] = arr[left + i]
-        for j in range(n2):
-            R[j] = arr[mid + 1 + j]
+            return merge
 
-        i = 0
-        j = 0
-        k = left
+        def mergeSort(left, right, arr):
+            if left == right:
+                return [arr[left]]
 
-        while i < n1 and j < n2:
-            if L[i] <= R[j]:
-                arr[k] = L[i]
-                i += 1
-            else:
-                arr[k] = R[j]
-                j += 1
-            k += 1
+            mid = left + (right - left) // 2
 
-        while i < n1:
-            arr[k] = L[i]
-            i += 1
-            k += 1
+            left_val = mergeSort(left, mid, arr)
+            right_val = mergeSort(mid+1, right, arr)
 
-        while j < n2:
-            arr[k] = R[j]
-            j += 1
-            k += 1
+            return merge(left_val, right_val)
+
+        return mergeSort(0, len(nums)-1, nums)
+            
+                
+
+            #[1,2,3] [2,3,4]
+            #[1, ]
