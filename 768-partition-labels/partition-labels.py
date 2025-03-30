@@ -19,13 +19,10 @@ class Solution:
 
             if freq == 0:
                 count = 0
+                
                 count += sum(s_counter[key] for key in curr)
                 ans.append(count)
-            
                 curr.clear()
                 freq = 0
 
-        
-
-        
         return ans
