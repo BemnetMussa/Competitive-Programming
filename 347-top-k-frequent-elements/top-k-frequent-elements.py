@@ -1,21 +1,12 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        # Bucket sort Algorithm 
+        counts = Counter(nums)
 
-        # bucket size == len(nums) at max one element will have len(nums) repeating nums
-        bucket = [[] for _ in range(len(nums)+1)]
+        heap = []
+        for n, count in counts.items():
+            heapq.heappush(heap, (count, n))
 
-        freq_counter = Counter(nums)
-        for n, f in freq_counter.items():
-            bucket[f].append(n)
+            if len(heap) > k:
+                heapq.heappop(heap)
 
-        ans = []
-        
-        for i in range(len(bucket)-1, -1, -1):
-            if bucket[i]:
-                ans.extend(bucket[i])
-                if len(ans) == k:
-                    return ans
-
-
-        
+        return [n for count, n in heap]
