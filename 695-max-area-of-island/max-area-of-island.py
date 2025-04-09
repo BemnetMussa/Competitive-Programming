@@ -28,9 +28,7 @@ class Solution:
         for i in range(rows):
             for j in range(cols):
                 if grid[i][j] == 1 and (i, j) not in visited:
-                    count = scan(i, j)
-                    print((i, j), count)
-                    max_area = max(max_area, count)
+                    max_area = max(max_area, scan(i, j))
                     
 
         return max_area
