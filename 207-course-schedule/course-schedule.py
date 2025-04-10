@@ -5,7 +5,7 @@ class Solution:
         # build graph
         graph = defaultdict(list)
         for a, b in prerequisites:
-            graph[b].append(a)
+            graph[a].append(b)
 
         color = {i: white for i in range(numCourses)}
 
@@ -19,6 +19,7 @@ class Solution:
             for child in graph[course]:
                 if not dfs(child):
                     return False
+                    
             color[course] = black
             return True
 
