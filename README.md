@@ -26,4 +26,20 @@
 |  |
 | ------- |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2527-count-subarrays-with-fixed-bounds) |
+## Depth-First Search
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0820-find-eventual-safe-states) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0820-find-eventual-safe-states) |
+## Graph
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0820-find-eventual-safe-states) |
+## Topological Sort
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
