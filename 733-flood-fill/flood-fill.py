@@ -1,6 +1,16 @@
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, color: int) -> List[List[int]]:
-  
+        '''
+        check the adjacent pixels if it is the same as source pixel then fill it by a color
+        
+        Approach:
+        - start with the source pixel
+        - check adjacent pixel (H and V)
+        - fill it color if colors are the same
+        
+        doing one traversal -> efficient!
+        '''
+
         directions = [(-1, 0), (0, -1), (1, 0), (0, 1)]
         original = image[sr][sc]
 
