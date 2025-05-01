@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0275-h-index-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0275-h-index-ii) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0733-flood-fill](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0733-flood-fill) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -57,6 +58,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0733-flood-fill](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0733-flood-fill) |
 ## Tree
 |  |
@@ -71,6 +73,7 @@
 |  |
 | ------- |
 | [0275-h-index-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0275-h-index-ii) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [3643-zero-array-transformation-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3643-zero-array-transformation-ii) |
@@ -78,6 +81,7 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Tree
 |  |
@@ -100,6 +104,7 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 ## Two Pointers
 |  |
