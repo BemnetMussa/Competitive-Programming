@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0275-h-index-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0275-h-index-ii) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0733-flood-fill](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0733-flood-fill) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -81,6 +82,7 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Tree
