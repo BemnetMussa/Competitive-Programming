@@ -14,6 +14,7 @@
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1706-min-cost-to-connect-all-points](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1706-min-cost-to-connect-all-points) |
 | [1962-single-threaded-cpu](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1962-single-threaded-cpu) |
 | [2048-build-array-from-permutation](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2048-build-array-from-permutation) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -67,6 +68,7 @@
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0820-find-eventual-safe-states) |
+| [1706-min-cost-to-connect-all-points](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1706-min-cost-to-connect-all-points) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Topological Sort
@@ -180,6 +182,7 @@
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0721-accounts-merge) |
+| [1706-min-cost-to-connect-all-points](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1706-min-cost-to-connect-all-points) |
 ## Simulation
 |  |
 | ------- |
@@ -189,4 +192,8 @@
 | ------- |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
