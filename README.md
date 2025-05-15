@@ -203,4 +203,8 @@
 |  |
 | ------- |
 | [3637-count-number-of-balanced-permutations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3637-count-number-of-balanced-permutations) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0461-hamming-distance](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0461-hamming-distance) |
 <!---LeetCode Topics End-->
