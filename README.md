@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0136-single-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0136-single-number) |
 | [0275-h-index-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0275-h-index-ii) |
 | [0347-top-k-frequent-elements](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -209,5 +210,6 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0136-single-number) |
 | [0461-hamming-distance](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0461-hamming-distance) |
 <!---LeetCode Topics End-->
