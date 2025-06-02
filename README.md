@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0051-n-queens) |
+| [0135-candy](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0136-single-number) |
 | [0275-h-index-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0275-h-index-ii) |
 | [0347-top-k-frequent-elements](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
@@ -137,6 +138,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0135-candy](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0135-candy) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 ## Sorting
