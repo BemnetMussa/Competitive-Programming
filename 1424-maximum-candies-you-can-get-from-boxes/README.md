@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes">1424. Maximum Candies You Can Get from Boxes</a></h2><h3>Hard</h3><hr><p>You have <code>n</code> boxes labeled from <code>0</code> to <code>n - 1</code>. You are given four arrays: <code>status</code>, <code>candies</code>, <code>keys</code>, and <code>containedBoxes</code> where:</p>
+<h2><a href="https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes">Maximum Candies You Can Get from Boxes</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You have <code>n</code> boxes labeled from <code>0</code> to <code>n - 1</code>. You are given four arrays: <code>status</code>, <code>candies</code>, <code>keys</code>, and <code>containedBoxes</code> where:</p>
 
 <ul>
 	<li><code>status[i]</code> is <code>1</code> if the <code>i<sup>th</sup></code> box is open and <code>0</code> if the <code>i<sup>th</sup></code> box is closed,</li>
