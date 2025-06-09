@@ -201,6 +201,7 @@
 ## Trie
 |  |
 | ------- |
+| [0440-k-th-smallest-in-lexicographical-order](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 ## Dynamic Programming
 |  |
