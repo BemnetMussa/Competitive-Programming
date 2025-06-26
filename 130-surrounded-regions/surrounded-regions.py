@@ -1,36 +1,47 @@
+from typing import List
+
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
-        
-        rows, cols = len(board), len(board[0])
+        """
+        Do not return anything, modify board in-place instead.
+        """
+        n = len(board)
+        m = len(board[0])
 
+        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+
+        # DFS function must be defined before usage
         def dfs(i, j):
-            if i < 0 or i >= rows or j < 0 or j >= cols or board[i][j] != 'O':
+            if (i, j) in visited or board[i][j] == "X":
                 return
-            board[i][j] = 'S'  # mark as safe
-            dfs(i + 1, j)
-            dfs(i - 1, j)
-            dfs(i, j + 1)
-            dfs(i, j - 1)
 
-        # Step 1: Go through border and mark safe 'O's
-        for i in range(rows):
-            if board[i][0] == 'O':
+            visited.add((i, j))
+            board[i][j] = "T"
+
+            for x, y in directions:
+                ni = x + i
+                nj = y + j
+                if 0 <= ni < n and 0 <= nj < m:  # Fixed boundary check
+                    dfs(ni, nj)
+
+        # Step 1: Mark unsourdounded edges
+        visited = set()
+        for i in range(n):
+            if board[i][0] == "O":
                 dfs(i, 0)
-            if board[i][cols - 1] == 'O':
-                dfs(i, cols - 1)
-        print(board)
-        for j in range(cols):
-            if board[0][j] == 'O':
+            if board[i][m-1] == "O":
+                dfs(i, m-1)
+
+        for j in range(m):
+            if board[0][j] == "O":
                 dfs(0, j)
-            if board[rows - 1][j] == 'O':
-                dfs(rows - 1, j)
-
-        # Step 2: Flip the board
-        for i in range(rows):
-            for j in range(cols):
-                if board[i][j] == 'O':
-                    board[i][j] = 'X' 
-                elif board[i][j] == 'S':
-                    board[i][j] = 'O'  
-
-        print(board)
+            if board[n-1][j] == "O":
+                dfs(n-1, j)
+        
+        # Step 2: Mark all remaining 'O' as 'X'
+        for i in range(n):
+            for j in range(m):
+                if board[i][j] == "O":
+                    board[i][j] = "X"
+                if board[i][j] == "T":
+                    board[i][j] = "O"
