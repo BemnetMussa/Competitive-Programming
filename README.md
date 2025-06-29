@@ -20,6 +20,7 @@
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1706-min-cost-to-connect-all-points](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1706-min-cost-to-connect-all-points) |
 | [1876-map-of-highest-peak](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1876-map-of-highest-peak) |
 | [1962-single-threaded-cpu](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1962-single-threaded-cpu) |
@@ -119,6 +120,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0475-heaters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0475-heaters) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [3643-zero-array-transformation-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3643-zero-array-transformation-ii) |
 ## Heap (Priority Queue)
@@ -164,6 +166,7 @@
 | [0475-heaters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0475-heaters) |
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0721-accounts-merge) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1962-single-threaded-cpu](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1962-single-threaded-cpu) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 ## Two Pointers
@@ -172,6 +175,7 @@
 | [0295-find-median-from-data-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
 | [0475-heaters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0475-heaters) |
 | [0868-push-dominoes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0868-push-dominoes) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 ## Divide and Conquer
 |  |
 | ------- |
