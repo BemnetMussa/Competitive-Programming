@@ -150,6 +150,7 @@
 | [0067-add-binary](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0067-add-binary) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3637-count-number-of-balanced-permutations) |
 ## Greedy
 |  |
@@ -248,6 +249,7 @@
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
 | [0461-hamming-distance](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0461-hamming-distance) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Backtracking
 |  |
 | ------- |
@@ -260,4 +262,8 @@
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
+## Recursion
+|  |
+| ------- |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 <!---LeetCode Topics End-->
