@@ -34,6 +34,7 @@
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3643-zero-array-transformation-ii) |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -158,6 +159,7 @@
 | [0135-candy](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0135-candy) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -266,4 +268,8 @@
 |  |
 | ------- |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
+## Enumeration
+|  |
+| ------- |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 <!---LeetCode Topics End-->
