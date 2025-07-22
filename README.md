@@ -38,6 +38,7 @@
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3643-zero-array-transformation-ii) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
+| [3750-closest-equal-element-queries](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3750-closest-equal-element-queries) |
 ## Hash Table
 |  |
 | ------- |
@@ -49,6 +50,7 @@
 | [1813-maximum-erasure-value](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1813-maximum-erasure-value) |
 | [2479-meeting-rooms-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2479-meeting-rooms-iii) |
 | [2915-count-of-interesting-subarrays](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2915-count-of-interesting-subarrays) |
+| [3750-closest-equal-element-queries](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3750-closest-equal-element-queries) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -130,6 +132,7 @@
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [3643-zero-array-transformation-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3643-zero-array-transformation-ii) |
+| [3750-closest-equal-element-queries](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3750-closest-equal-element-queries) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
