@@ -22,6 +22,7 @@
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1706-min-cost-to-connect-all-points](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1706-min-cost-to-connect-all-points) |
+| [1813-maximum-erasure-value](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1813-maximum-erasure-value) |
 | [1876-map-of-highest-peak](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1876-map-of-highest-peak) |
 | [1962-single-threaded-cpu](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1962-single-threaded-cpu) |
 | [2048-build-array-from-permutation](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2048-build-array-from-permutation) |
@@ -45,6 +46,7 @@
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0721-accounts-merge) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1813-maximum-erasure-value](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1813-maximum-erasure-value) |
 | [2479-meeting-rooms-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2479-meeting-rooms-iii) |
 | [2915-count-of-interesting-subarrays](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2915-count-of-interesting-subarrays) |
 ## Prefix Sum
@@ -61,6 +63,7 @@
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
+| [1813-maximum-erasure-value](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1813-maximum-erasure-value) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 ## Monotonic Queue
