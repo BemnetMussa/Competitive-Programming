@@ -168,6 +168,7 @@
 | ------- |
 | [0135-candy](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0135-candy) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
@@ -220,6 +221,7 @@
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0721-accounts-merge) |
 | [0868-push-dominoes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0868-push-dominoes) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3637-count-number-of-balanced-permutations) |
 ## Trie
@@ -287,4 +289,8 @@
 |  |
 | ------- |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
+## Stack
+|  |
+| ------- |
+| [1818-maximum-score-from-removing-substrings](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1818-maximum-score-from-removing-substrings) |
 <!---LeetCode Topics End-->
