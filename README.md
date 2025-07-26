@@ -40,6 +40,7 @@
 | [3643-zero-array-transformation-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3643-zero-array-transformation-ii) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3750-closest-equal-element-queries](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3750-closest-equal-element-queries) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Hash Table
 |  |
 | ------- |
@@ -58,6 +59,7 @@
 | ------- |
 | [2915-count-of-interesting-subarrays](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2915-count-of-interesting-subarrays) |
 | [3643-zero-array-transformation-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3643-zero-array-transformation-ii) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Queue
 |  |
 | ------- |
@@ -294,8 +296,13 @@
 |  |
 | ------- |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Stack
 |  |
 | ------- |
 | [1818-maximum-score-from-removing-substrings](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1818-maximum-score-from-removing-substrings) |
+## Segment Tree
+|  |
+| ------- |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 <!---LeetCode Topics End-->
