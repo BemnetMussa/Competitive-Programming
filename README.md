@@ -43,6 +43,7 @@
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3750-closest-equal-element-queries](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3750-closest-equal-element-queries) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3791-fruits-into-baskets-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3791-fruits-into-baskets-iii) |
 ## Hash Table
 |  |
 | ------- |
@@ -141,6 +142,7 @@
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [3643-zero-array-transformation-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3643-zero-array-transformation-ii) |
 | [3750-closest-equal-element-queries](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3750-closest-equal-element-queries) |
+| [3791-fruits-into-baskets-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3791-fruits-into-baskets-iii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -310,8 +312,13 @@
 |  |
 | ------- |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3791-fruits-into-baskets-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3791-fruits-into-baskets-iii) |
 ## Brainteaser
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Ordered Set
+|  |
+| ------- |
+| [3791-fruits-into-baskets-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3791-fruits-into-baskets-iii) |
 <!---LeetCode Topics End-->
