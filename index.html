@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <style>
+      :root {
+          --primary-blue: #3B82F6; /* Tailwind blue-500 */
+          --secondary-green: #10B981; /* Tailwind green-500 */
+          --accent-orange: #F59E0B; /* Tailwind amber-500 */
+          --text-dark: #1F2937; /* Tailwind gray-800 */
+          --text-light: #F9FAFB; /* Tailwind gray-50 */
+          --bg-light: #F9FAFB; /* Tailwind gray-50 */
+          --bg-dark: #1F2937; /* Tailwind gray-800 */
+          --card-bg: #FFFFFF;
+          --border-color: #E5E7EB; /* Tailwind gray-200 */
+          --shadow-sm: rgba(0, 0, 0, 0.05);
+          --shadow-md: rgba(0, 0, 0, 0.1);
+      }
+
+      * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+      }
+
+      body {
+          font-family: 'Inter', sans-serif;
+          line-height: 1.5;
+          color: var(--text-dark);
+          background-color: var(--bg-light);
+          display: flex;
+          min-height: 100vh;
+      }
+
+      .dashboard-container {
+          display: flex;
+          width: 100%;
+      }
+
+      /* Sidebar Toggle (Hamburger Menu) */
+      .sidebar-toggle-button {
+          display: none; /* Hidden by default, shown on mobile */
+          position: fixed;
+          top: 15px;
+          left: 15px;
+          width: 30px;
+          height: 30px;
+          background-color: var(--primary-blue);
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          z-index: 1001;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          padding: 6px;
+          transition: background-color 0.3s ease;
+      }
+
+      .sidebar-toggle-button span {
+          display: block;
+          height: 2px;
+          background-color: var(--text-light);
+          border-radius: 1px;
+          transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+
+      .sidebar-toggle-button.open {
+          background-color: #DC2626; /* Red on open */
+      }
+
+      .sidebar-toggle-button.open span:nth-child(1) {
+          transform: translateY(7px) rotate(45deg);
+      }
+      .sidebar-toggle-button.open span:nth-child(2) {
+          opacity: 0;
+      }
+      .sidebar-toggle-button.open span:nth-child(3) {
+          transform: translateY(-7px) rotate(-45deg);
+      }
+
+      /* Sidebar */
+      .sidebar {
+          width: 240px;
+          background-color: var(--bg-dark);
+          color: var(--text-light);
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          box-shadow: 2px 0 8px var(--shadow-md);
+          flex-shrink: 0;
+          transition: transform 0.3s ease, width 0.3s ease;
+          z-index: 1000;
+      }
+
+      .sidebar-header {
+          font-size: 1.6em;
+          font-weight: 700;
+          text-align: center;
+          margin-bottom: 30px;
+          color: var(--secondary-green);
+      }
+
+      .sidebar-menu {
+          list-style: none;
+          flex-grow: 1;
+      }
+
+      .sidebar-menu li {
+          margin-bottom: 8px;
+      }
+
+      .sidebar-menu li a {
+          display: flex;
+          align-items: center;
+          padding: 12px 15px;
+          color: var(--text-light);
+          text-decoration: none;
+          border-radius: 6px;
+          transition: background-color 0.3s ease, color 0.3s ease;
+          font-weight: 500;
+      }
+
+      .sidebar-menu li a:hover {
+          background-color: rgba(255, 255, 255, 0.15);
+          color: var(--secondary-green);
+      }
+
+      .sidebar-menu li a.active {
+          background-color: var(--primary-blue);
+          color: var(--text-light);
+      }
+
+      .sidebar-menu li a::before {
+          content: ''; /* Icon placeholder */
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          margin-right: 12px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          filter: invert(1); /* Makes placeholder visible on dark background */
+      }
+
+      /* Specific icon placeholders (using queries for clarity) */
+      .sidebar-menu li:nth-child(1) a::before { background-image: url('/placeholder.svg?height=20&width=20'); }
+      .sidebar-menu li:nth-child(2) a::before { background-image: url('/placeholder.svg?height=20&width=20'); }
+      .sidebar-menu li:nth-child(3) a::before { background-image: url('/placeholder.svg?height=20&width=20'); }
+      .sidebar-menu li:nth-child(4) a::before { background-image: url('/placeholder.svg?height=20&width=20'); }
+      .sidebar-menu li:nth-child(5) a::before { background-image: url('/placeholder.svg?height=20&width=20'); }
+      .sidebar-menu li:nth-child(6) a::before { background-image: url('/placeholder.svg?height=20&width=20'); }
+      .sidebar-menu li:nth-child(7) a::before { background-image: url('/placeholder.svg?height=20&width=20'); }
+
+
+      /* Main Content Area */
+      .main-content {
+          flex-grow: 1;
+          display: flex;
+          flex-direction: column;
+          background-color: var(--bg-light);
+      }
+
+      /* Top Bar */
+      .top-bar {
+          background-color: var(--card-bg);
+          padding: 15px 30px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border-bottom: 1px solid var(--border-color);
+          box-shadow: 0 2px 4px var(--shadow-sm);
+          gap: 20px;
+          flex-wrap: wrap;
+      }
+
+      .section-title {
+          font-size: 1.5em;
+          font-weight: 700;
+          color: var(--primary-blue);
+          flex-shrink: 0;
+      }
+
+      .search-bar {
+          flex-grow: 1;
+          max-width: 450px;
+          position: relative;
+      }
+
+      .search-bar input {
+          width: 100%;
+          padding: 10px 15px;
+          padding-left: 40px;
+          border: 1px solid var(--border-color);
+          border-radius: 25px;
+          font-size: 0.95em;
+          outline: none;
+          transition: border-color 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .search-bar input:focus {
+          border-color: var(--primary-blue);
+          box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+      }
+
+      .search-bar::before {
+          content: ''; /* Search icon placeholder */
+          position: absolute;
+          left: 15px;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 20px;
+          height: 20px;
+          background-image: url('/placeholder.svg?height=20&width=20');
+          background-size: contain;
+          background-repeat: no-repeat;
+          filter: invert(0.4);
+      }
+
+      .top-bar-icons {
+          display: flex;
+          align-items: center;
+          gap: 25px;
+          flex-shrink: 0;
+      }
+
+      .icon-button {
+          width: 36px;
+          height: 36px;
+          background-color: var(--bg-light);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          transition: background-color 0.3s ease, transform 0.2s ease;
+          box-shadow: 0 1px 3px var(--shadow-sm);
+          text-decoration: none; /* Ensure links don't have underline */
+      }
+
+      .icon-button:hover {
+          background-color: var(--border-color);
+          transform: translateY(-2px);
+      }
+
+      .icon-button::before {
+          content: ''; /* Icon placeholder */
+          width: 22px;
+          height: 22px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          filter: invert(0.2);
+      }
+
+      .icon-button.notification::before { background-image: url('/placeholder.svg?height=22&width=22'); }
+      .icon-button.profile::before { background-image: url('/placeholder.svg?height=22&width=22'); }
+
+
+      /* Dashboard Home */
+      .dashboard-home {
+          padding: 30px;
+          flex-grow: 1;
+          overflow-y: auto;
+      }
+
+      .stat-cards {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 25px;
+          margin-bottom: 40px;
+      }
+
+      .card {
+          background-color: var(--card-bg);
+          border-radius: 10px;
+          padding: 25px;
+          box-shadow: 0 4px 12px var(--shadow-md);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          min-height: 130px;
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+          border: 1px solid var(--border-color);
+      }
+
+      .card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+      }
+
+      .card h3 {
+          font-size: 1.15em;
+          color: var(--text-dark);
+          margin-bottom: 10px;
+          font-weight: 600;
+      }
+
+      .card p {
+          font-size: 2.2em;
+          font-weight: 700;
+          color: var(--primary-blue);
+      }
+
+      .card:nth-child(2) p { color: var(--accent-orange); }
+      .card:nth-child(3) p { color: var(--secondary-green); }
+      .card:nth-child(4) p { color: #6B7280; /* Tailwind gray-500 */ }
+
+
+      .graph-placeholder {
+          background-color: var(--card-bg);
+          border-radius: 10px;
+          padding: 30px;
+          box-shadow: 0 4px 12px var(--shadow-md);
+          height: 350px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.3em;
+          color: #666;
+          margin-bottom: 40px;
+          border: 1px dashed var(--border-color);
+          text-align: center;
+      }
+
+      .recent-applications {
+          background-color: var(--card-bg);
+          border-radius: 10px;
+          padding: 30px;
+          box-shadow: 0 4px 12px var(--shadow-md);
+          overflow-x: auto;
+      }
+
+      .recent-applications h2 {
+          font-size: 1.4em;
+          color: var(--text-dark);
+          margin-bottom: 25px;
+          font-weight: 600;
+      }
+
+      .applications-table {
+          width: 100%;
+          border-collapse: collapse;
+          min-width: 700px; /* Ensure table doesn't get too narrow */
+      }
+
+      .applications-table th,
+      .applications-table td {
+          padding: 15px 20px;
+          text-align: left;
+          border-bottom: 1px solid var(--border-color);
+      }
+
+      .applications-table th {
+          background-color: var(--bg-light);
+          font-weight: 600;
+          color: #4B5563; /* Tailwind gray-600 */
+          text-transform: uppercase;
+          font-size: 0.88em;
+      }
+
+      .applications-table tbody tr:hover {
+          background-color: #F3F4F6; /* Tailwind gray-100 */
+      }
+
+      .status-badge {
+          display: inline-block;
+          padding: 6px 12px;
+          border-radius: 20px;
+          font-size: 0.85em;
+          font-weight: 600;
+          text-transform: capitalize;
+      }
+
+      .status-badge.pending {
+          background-color: #FEF3C7; /* Tailwind amber-100 */
+          color: #B45309; /* Tailwind amber-700 */
+      }
+
+      .status-badge.approved {
+          background-color: #D1FAE5; /* Tailwind emerald-100 */
+          color: #065F46; /* Tailwind emerald-700 */
+      }
+
+      .status-badge.rejected {
+          background-color: #FEE2E2; /* Tailwind red-100 */
+          color: #991B1B; /* Tailwind red-700 */
+      }
+
+      .action-buttons button {
+          display: inline-block;
+          padding: 8px 15px;
+          margin-right: 8px;
+          border-radius: 6px;
+          text-decoration: none;
+          font-size: 0.9em;
+          font-weight: 500;
+          transition: background-color 0.3s ease, transform 0.2s ease;
+          border: none; /* Remove default button border */
+          cursor: pointer;
+      }
+
+      .action-buttons button:hover {
+          transform: translateY(-1px);
+      }
+
+      .action-buttons .approve {
+          background-color: var(--secondary-green);
+          color: var(--text-light);
+      }
+      .action-buttons .approve:hover { background-color: #059669; }
+
+      .action-buttons .reject {
+          background-color: #EF4444; /* Tailwind red-500 */
+          color: var(--text-light);
+      }
+      .action-buttons .reject:hover { background-color: #DC2626; }
+
+      .action-buttons .view {
+          background-color: #E5E7EB; /* Tailwind gray-200 */
+          color: var(--text-dark);
+      }
+      .action-buttons .view:hover { background-color: #D1D5DB; }
+
+
+      /* Responsive Layout */
+      @media (max-width: 1024px) {
+          .sidebar {
+              width: 80px; /* Collapsed state */
+              padding: 20px 0;
+          }
+          .sidebar-header {
+              font-size: 1.2em;
+              margin-bottom: 20px;
+          }
+          .sidebar-menu li a {
+              justify-content: center;
+              padding: 12px 0;
+          }
+          .sidebar-menu li a span {
+              display: none; /* Hide text */
+          }
+          .sidebar-menu li a::before {
+              margin-right: 0;
+          }
+      }
+
+      @media (max-width: 768px) {
+          .dashboard-container {
+              flex-direction: column;
+          }
+
+          .sidebar-toggle-button {
+              display: flex; /* Show hamburger icon */
+          }
+
+          .sidebar {
+              position: fixed;
+              top: 0;
+              left: 0;
+              height: 100%;
+              width: 280px; /* Full width for mobile sidebar */
+              transform: translateX(-100%); /* Hide by default */
+              padding-top: 70px; /* Space for toggle button */
+          }
+
+          .sidebar.open {
+              transform: translateX(0); /* Show sidebar when open */
+          }
+
+          .main-content {
+              margin-left: 0; /* No sidebar offset */
+          }
+
+          .top-bar {
+              flex-direction: column;
+              align-items: flex-start;
+              padding: 15px 20px;
+              gap: 15px;
+              padding-top: 60px; /* Space for fixed toggle button */
+          }
+
+          .section-title {
+              width: 100%;
+              text-align: center;
+              margin-bottom: 0;
+          }
+
+          .search-bar {
+              width: 100%;
+              max-width: none;
+          }
+
+          .top-bar-icons {
+              width: 100%;
+              justify-content: center;
+              gap: 30px;
+          }
+
+          .dashboard-home {
+              padding: 20px;
+          }
+
+          .stat-cards {
+              grid-template-columns: 1fr; /* Stack cards vertically */
+              gap: 20px;
+          }
+
+          .graph-placeholder {
+              height: 280px;
+          }
+
+          .recent-applications {
+              padding: 20px;
+          }
+      }
+
+      @media (max-width: 480px) {
+          .top-bar {
+              padding: 10px 15px;
+              padding-top: 55px;
+          }
+          .section-title {
+              font-size: 1.3em;
+          }
+          .search-bar input {
+              padding: 8px 12px;
+              padding-left: 35px;
+              font-size: 0.9em;
+          }
+          .search-bar::before {
+              width: 18px;
+              height: 18px;
+              left: 12px;
+          }
+          .icon-button {
+              width: 32px;
+              height: 32px;
+          }
+          .icon-button::before {
+              width: 18px;
+              height: 18px;
+          }
+          .dashboard-home {
+              padding: 15px;
+          }
+          .stat-cards {
+              gap: 15px;
+          }
+          .card h3 {
+              font-size: 1em;
+          }
+          .card p {
+              font-size: 1.8em;
+          }
+          .graph-placeholder {
+              height: 200px;
+              font-size: 1.1em;
+          }
+          .recent-applications {
+              padding: 15px;
+          }
+          .applications-table th,
+          .applications-table td {
+              padding: 10px 12px;
+              font-size: 0.8em;
+          }
+          .status-badge {
+              padding: 4px 8px;
+              font-size: 0.75em;
+          }
+          .action-buttons button {
+              padding: 6px 10px;
+              margin-right: 5px;
+              font-size: 0.8em;
+          }
+      }
+  </style>
+</head>
+<body>
+  <div class="dashboard-container">
+      <!-- Sidebar Toggle Button -->
+      <button id="sidebar-toggle-button" class="sidebar-toggle-button" aria-label="Toggle Sidebar">
+          <span></span>
+          <span></span>
+          <span></span>
+      </button>
+
+      <aside class="sidebar" id="sidebar">
+          <div class="sidebar-header">
+              Admin Panel
+          </div>
+          <nav class="sidebar-menu">
+              <ul>
+                  <li><a href="#dashboard" class="nav-link active"><span>Dashboard</span></a></li>
+                  <li><a href="#startups" class="nav-link"><span>Manage Startups</span></a></li>
+                  <li><a href="#investors" class="nav-link"><span>Manage Investors</span></a></li>
+                  <li><a href="#government" class="nav-link"><span>Government Partners</span></a></li>
+                  <li><a href="#analytics" class="nav-link"><span>Analytics</span></a></li>
+                  <li><a href="#reports" class="nav-link"><span>Reports</span></a></li>
+                  <li><a href="#settings" class="nav-link"><span>Settings</span></a></li>
+              </ul>
+          </nav>
+      </aside>
+
+      <div class="main-content">
+          <header class="top-bar">
+              <div class="section-title" id="current-section-title">Dashboard</div>
+              <div class="search-bar">
+                  <input type="text" id="search-input" placeholder="Search anything..." aria-label="Search">
+              </div>
+              <div class="top-bar-icons">
+                  <a href="#" class="icon-button notification" aria-label="Notifications"></a>
+                  <a href="#" class="icon-button profile" aria-label="Admin Profile"></a>
+              </div>
+          </header>
+
+          <main class="dashboard-home" id="dashboard-content">
+              <div class="stat-cards">
+                  <div class="card">
+                      <h3>Total Startups</h3>
+                      <p>1,234</p>
+                  </div>
+                  <div class="card">
+                      <h3>Pending Verifications</h3>
+                      <p>42</p>
+                  </div>
+                  <div class="card">
+                      <h3>Active Investors</h3>
+                      <p>567</p>
+                  </div>
+                  <div class="card">
+                      <h3>Government Partners</h3>
+                      <p>12</p>
+                  </div>
+              </div>
+
+              <div class="graph-placeholder">
+                  <p>Platform Activity Overview (Graph Placeholder)</p>
+              </div>
+
+              <div class="recent-applications">
+                  <h2>Recent Startup Applications</h2>
+                  <table class="applications-table" id="applications-table">
+                      <thead>
+                          <tr>
+                              <th>Startup Name</th>
+                              <th>Category</th>
+                              <th>Submission Date</th>
+                              <th>Status</th>
+                              <th>Actions</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>InnovateTech Solutions</td>
+                              <td>AI & Machine Learning</td>
+                              <td>2024-07-28</td>
+                              <td><span class="status-badge pending">Pending</span></td>
+                              <td class="action-buttons">
+                                  <button class="approve" data-startup="InnovateTech Solutions">Approve</button>
+                                  <button class="reject" data-startup="InnovateTech Solutions">Reject</button>
+                                  <button class="view" data-startup="InnovateTech Solutions">View</button>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>GreenHarvest Farms</td>
+                              <td>Agri-Tech</td>
+                              <td>2024-07-27</td>
+                              <td><span class="status-badge approved">Approved</span></td>
+                              <td class="action-buttons">
+                                  <button class="view" data-startup="GreenHarvest Farms">View</button>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>EduBridge Online</td>
+                              <td>Ed-Tech</td>
+                              <td>2024-07-26</td>
+                              <td><span class="status-badge pending">Pending</span></td>
+                              <td class="action-buttons">
+                                  <button class="approve" data-startup="EduBridge Online">Approve</button>
+                                  <button class="reject" data-startup="EduBridge Online">Reject</button>
+                                  <button class="view" data-startup="EduBridge Online">View</button>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>HealthLink Diagnostics</td>
+                              <td>Bio-Tech</td>
+                              <td>2024-07-25</td>
+                              <td><span class="status-badge rejected">Rejected</span></td>
+                              <td class="action-buttons">
+                                  <button class="view" data-startup="HealthLink Diagnostics">View</button>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>Urban Mobility Co.</td>
+                              <td>Smart Cities</td>
+                              <td>2024-07-24</td>
+                              <td><span class="status-badge approved">Approved</span></td>
+                              <td class="action-buttons">
+                                  <button class="view" data-startup="Urban Mobility Co.">View</button>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </main>
+      </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const sidebarToggleButton = document.getElementById('sidebar-toggle-button');
+        const sidebar = document.getElementById('sidebar');
+        const navLinks = document.querySelectorAll('.nav-link');
+        const currentSectionTitle = document.getElementById('current-section-title');
+        const searchInput = document.getElementById('search-input');
+        const applicationsTable = document.getElementById('applications-table');
+        const tableRows = applicationsTable.querySelectorAll('tbody tr');
+
+        // --- Sidebar Toggle Functionality ---
+        sidebarToggleButton.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+            sidebarToggleButton.classList.toggle('open');
+        });
+
+        // Close sidebar if clicking outside on mobile
+        document.addEventListener('click', (event) => {
+            if (window.innerWidth <= 768 && sidebar.classList.contains('open')) {
+                const isClickInsideSidebar = sidebar.contains(event.target);
+                const isClickOnToggleButton = sidebarToggleButton.contains(event.target);
+                if (!isClickInsideSidebar && !isClickOnToggleButton) {
+                    sidebar.classList.remove('open');
+                    sidebarToggleButton.classList.remove('open');
+                }
+            }
+        });
+
+        // --- Navigation Link Active State & Title Update ---
+        navLinks.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default anchor jump for demonstration
+
+                // Remove active class from all links
+                navLinks.forEach(l => l.classList.remove('active'));
+
+                // Add active class to clicked link
+                link.classList.add('active');
+
+                // Update section title
+                const sectionName = link.querySelector('span').textContent;
+                currentSectionTitle.textContent = sectionName;
+
+                // Close sidebar on mobile after clicking a link
+                if (window.innerWidth <= 768) {
+                    sidebar.classList.remove('open');
+                    sidebarToggleButton.classList.remove('open');
+                }
+
+                // In a real app, you would load content here based on the link's href
+                // For now, we just update the title.
+                console.log(`Navigated to: ${sectionName}`);
+            });
+        });
+
+        // Set initial active state and title based on the first link
+        if (navLinks.length > 0) {
+            navLinks[0].click(); // Simulate a click on the first link to set initial state
+        }
+
+        // --- Search Bar Functionality ---
+        searchInput.addEventListener('keyup', () => {
+            const searchTerm = searchInput.value.toLowerCase();
+
+            tableRows.forEach(row => {
+                const startupName = row.children[0].textContent.toLowerCase(); // First column is Startup Name
+                if (startupName.includes(searchTerm)) {
+                    row.style.display = ''; // Show row
+                } else {
+                    row.style.display = 'none'; // Hide row
+                }
+            });
+        });
+
+        // --- Table Action Buttons ---
+        applicationsTable.addEventListener('click', (event) => {
+            const target = event.target;
+            if (target.tagName === 'BUTTON') {
+                const startupName = target.dataset.startup;
+                if (target.classList.contains('approve')) {
+                    alert(`Approved application for: ${startupName}`);
+                    // In a real app, you'd send this to a backend and update UI
+                    target.closest('tr').querySelector('.status-badge').textContent = 'Approved';
+                    target.closest('tr').querySelector('.status-badge').className = 'status-badge approved';
+                    target.closest('.action-buttons').innerHTML = '<button class="view" data-startup="' + startupName + '">View</button>';
+                } else if (target.classList.contains('reject')) {
+                    alert(`Rejected application for: ${startupName}`);
+                    // In a real app, you'd send this to a backend and update UI
+                    target.closest('tr').querySelector('.status-badge').textContent = 'Rejected';
+                    target.closest('tr').querySelector('.status-badge').className = 'status-badge rejected';
+                    target.closest('.action-buttons').innerHTML = '<button class="view" data-startup="' + startupName + '">View</button>';
+                } else if (target.classList.contains('view')) {
+                    alert(`Viewing details for: ${startupName}`);
+                    // In a real app, this would open a modal or navigate to a detail page
+                }
+            }
+        });
+    });
+  </script>
+</body>
+</html>
