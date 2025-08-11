@@ -33,6 +33,7 @@
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2529-range-product-queries-of-powers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2529-range-product-queries-of-powers) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
 | [2915-count-of-interesting-subarrays](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2915-count-of-interesting-subarrays) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -61,6 +62,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [2529-range-product-queries-of-powers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2529-range-product-queries-of-powers) |
 | [2915-count-of-interesting-subarrays](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2915-count-of-interesting-subarrays) |
 | [3643-zero-array-transformation-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3643-zero-array-transformation-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
@@ -283,6 +285,7 @@
 | [0461-hamming-distance](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0461-hamming-distance) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2529-range-product-queries-of-powers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2529-range-product-queries-of-powers) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Backtracking
