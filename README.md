@@ -13,6 +13,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0410-split-array-largest-sum) |
 | [0475-heaters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0475-heaters) |
+| [0679-24-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0679-24-game) |
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0733-flood-fill) |
@@ -181,6 +182,7 @@
 | ------- |
 | [0067-add-binary](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0231-power-of-two) |
+| [0679-24-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0679-24-game) |
 | [0867-new-21-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0867-new-21-game) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
@@ -307,6 +309,7 @@
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0051-n-queens) |
+| [0679-24-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0679-24-game) |
 ## Rolling Hash
 |  |
 | ------- |
