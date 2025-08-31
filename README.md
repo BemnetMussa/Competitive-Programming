@@ -248,6 +248,7 @@
 ## String
 |  |
 | ------- |
+| [0006-zigzag-conversion](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0006-zigzag-conversion) |
 | [0067-add-binary](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0067-add-binary) |
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
