@@ -20,6 +20,7 @@
 | [0881-loud-and-rich](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0881-loud-and-rich) |
 | [0940-fruit-into-baskets](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0940-fruit-into-baskets) |
 | [0999-regions-cut-by-slashes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0999-regions-cut-by-slashes) |
+| [1034-subarrays-with-k-different-integers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1034-subarrays-with-k-different-integers) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -64,6 +65,7 @@
 | [0721-accounts-merge](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0721-accounts-merge) |
 | [0940-fruit-into-baskets](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0940-fruit-into-baskets) |
 | [0999-regions-cut-by-slashes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0999-regions-cut-by-slashes) |
+| [1034-subarrays-with-k-different-integers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1034-subarrays-with-k-different-integers) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1813-maximum-erasure-value](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -91,6 +93,7 @@
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
 | [0867-new-21-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0867-new-21-game) |
 | [0940-fruit-into-baskets](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0940-fruit-into-baskets) |
+| [1034-subarrays-with-k-different-integers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1034-subarrays-with-k-different-integers) |
 | [1813-maximum-erasure-value](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1813-maximum-erasure-value) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
@@ -254,6 +257,7 @@
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
+| [1034-subarrays-with-k-different-integers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1034-subarrays-with-k-different-integers) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
 ## Quickselect
 |  |
