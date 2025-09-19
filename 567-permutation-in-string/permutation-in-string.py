@@ -1,28 +1,22 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        
-        stack = []
-        t = 0
+        n, m = len(s1), len(s2)
+        if n > m:
+            return False
 
-        s1_counter = Counter(s1)
-        k = len(s1)
-        s2_counter = Counter(s2[:k])
+        count_s1 = Counter(s1)
+        window = Counter(s2[:n])
 
-        if s2_counter == s1_counter:
+        if window == count_s1:
             return True
 
-        for i in range(k, len(s2)):
+        for i in range(n, m):
+            window[s2[i]] += 1
+            window[s2[i - n]] -= 1
+            if window[s2[i - n]] == 0:
+                del window[s2[i - n]]
 
-            
-            s2_counter[s2[i]] += 1
-           
-
-            s2_counter[s2[i-k]] -= 1
-            if s2_counter[s2[i-k]] == 0:
-                del s2_counter[s2[i-k]]
-
-            if s2_counter == s1_counter:
+            if window == count_s1:
                 return True
-
 
         return False
