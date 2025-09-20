@@ -59,6 +59,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
 | [0347-top-k-frequent-elements](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -92,6 +93,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0567-permutation-in-string) |
@@ -274,6 +276,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0006-zigzag-conversion](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0006-zigzag-conversion) |
 | [0067-add-binary](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0067-add-binary) |
+| [0076-minimum-window-substring](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0567-permutation-in-string) |
