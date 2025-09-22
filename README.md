@@ -45,6 +45,7 @@
 | [2915-count-of-interesting-subarrays](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2915-count-of-interesting-subarrays) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -75,6 +76,7 @@
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2479-meeting-rooms-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2479-meeting-rooms-iii) |
 | [2915-count-of-interesting-subarrays](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2915-count-of-interesting-subarrays) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3750-closest-equal-element-queries](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3750-closest-equal-element-queries) |
 ## Prefix Sum
 |  |
@@ -266,6 +268,7 @@
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [1034-subarrays-with-k-different-integers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1034-subarrays-with-k-different-integers) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Quickselect
 |  |
 | ------- |
