@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0051-n-queens) |
+| [0064-minimum-path-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0064-minimum-path-sum) |
 | [0135-candy](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0136-single-number) |
 | [0275-h-index-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0275-h-index-ii) |
@@ -146,6 +147,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0064-minimum-path-sum) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0733-flood-fill](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0733-flood-fill) |
 | [0999-regions-cut-by-slashes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0999-regions-cut-by-slashes) |
@@ -300,6 +302,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0064-minimum-path-sum) |
 | [0410-split-array-largest-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0410-split-array-largest-sum) |
 | [0806-domino-and-tromino-tiling](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0806-domino-and-tromino-tiling) |
 | [0867-new-21-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0867-new-21-game) |
