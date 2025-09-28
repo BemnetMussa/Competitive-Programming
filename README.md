@@ -21,6 +21,7 @@
 | [0881-loud-and-rich](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0881-loud-and-rich) |
 | [0940-fruit-into-baskets](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0940-fruit-into-baskets) |
 | [0999-regions-cut-by-slashes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0999-regions-cut-by-slashes) |
+| [1018-largest-perimeter-triangle](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1018-largest-perimeter-triangle) |
 | [1034-subarrays-with-k-different-integers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1034-subarrays-with-k-different-integers) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -210,6 +211,7 @@
 | [0679-24-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0679-24-game) |
 | [0867-new-21-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0867-new-21-game) |
 | [1013-fibonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1013-fibonacci-number) |
+| [1018-largest-perimeter-triangle](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1018-largest-perimeter-triangle) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
@@ -221,6 +223,7 @@
 | ------- |
 | [0135-candy](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0135-candy) |
 | [0410-split-array-largest-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0410-split-array-largest-sum) |
+| [1018-largest-perimeter-triangle](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1018-largest-perimeter-triangle) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -237,6 +240,7 @@
 | [0475-heaters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0475-heaters) |
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0721-accounts-merge) |
+| [1018-largest-perimeter-triangle](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1018-largest-perimeter-triangle) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1962-single-threaded-cpu](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1962-single-threaded-cpu) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
