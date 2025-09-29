@@ -31,13 +31,15 @@ class Solution:
             return length
 
         """
+        N = len(nums)
+
         memo = {}
         def dp(idx):
             if idx in memo:
                 return memo[idx]
             
             length = 1 # at least it self
-            for i in range(idx+1, len(nums)):
+            for i in range(idx+1, N):
                 if nums[i] > nums[idx]:
                     length = max(length, dp(i)+1)
             
