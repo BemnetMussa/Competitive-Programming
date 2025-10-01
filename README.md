@@ -215,6 +215,7 @@
 | [0867-new-21-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0867-new-21-game) |
 | [1013-fibonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1013-fibonacci-number) |
 | [1018-largest-perimeter-triangle](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1018-largest-perimeter-triangle) |
+| [1236-n-th-tribonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1236-n-th-tribonacci-number) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
@@ -316,6 +317,7 @@
 | [0867-new-21-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0867-new-21-game) |
 | [0868-push-dominoes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0868-push-dominoes) |
 | [1013-fibonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1013-fibonacci-number) |
+| [1236-n-th-tribonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1236-n-th-tribonacci-number) |
 | [1628-count-submatrices-with-all-ones](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1628-count-submatrices-with-all-ones) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3637-count-number-of-balanced-permutations) |
@@ -418,4 +420,5 @@
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1013-fibonacci-number) |
+| [1236-n-th-tribonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1236-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
