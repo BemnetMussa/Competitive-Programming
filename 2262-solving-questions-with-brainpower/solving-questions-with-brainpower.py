@@ -51,8 +51,10 @@ class Solution:
         for i in range(N - 1, -1, -1):
             points, brainpower = questions[i]
             next_q = i + brainpower + 1
+            
             solve = points + (dp[next_q] if next_q < N else 0)
             skip = dp[i + 1]
-            dp[i] = max(solve, skip)
+
+            dp[i] = max(solve, skip) 
 
         return dp[0]
