@@ -25,22 +25,34 @@ class Solution:
         N = len(questions)
 
         # Top-Down approch
-        memo = {}
-        def dp(idx):
-            if idx >= N:
-                return 0
-            
-            if idx in memo:
-                return memo[idx]
+        # memo = {}
+        # def dp(idx):
+        #     if idx >= N:
+        #         return 0
+        #     if idx in memo:
+        #         return memo[idx]
 
-          
-            # solve current question 
-            profit = questions[idx][0] + dp(idx + questions[idx][1] + 1)
+        #     # solve current question 
+        #     profit = questions[idx][0] + dp(idx + questions[idx][1] + 1)
 
-            # skip current question
-            skip = dp(idx + 1)
+        #     # skip current question
+        #     skip = dp(idx + 1)
+ 
+        #     memo[idx] = max(profit, skip)
+        #     return memo[idx]
 
-            memo[idx] = max(profit, skip)
-            return memo[idx]
+        # return dp(0)
 
-        return dp(0)
+
+        # Bottom-Down approch 
+        N = len(questions)
+        dp = [0] * (N + 1)  # Extra space to handle out-of-bound skips
+
+        for i in range(N - 1, -1, -1):
+            points, brainpower = questions[i]
+            next_q = i + brainpower + 1
+            solve = points + (dp[next_q] if next_q < N else 0)
+            skip = dp[i + 1]
+            dp[i] = max(solve, skip)
+
+        return dp[0]
