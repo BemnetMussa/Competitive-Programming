@@ -28,22 +28,39 @@ function dp(i, j):
 
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
-        
-        memo = {}
-        def dp(i, j):
-            if j == len(t): return 1
-            if i == len(s): return 0
+        # Top down appr
+        # memo = {}
+        # def dp(i, j):
+        #     if j == len(t): return 1
+        #     if i == len(s): return 0
 
-            if (i, j) in memo:
-                return memo[(i, j)]
+        #     if (i, j) in memo:
+        #         return memo[(i, j)]
 
-            take = 0
-            if s[i] == t[j]:
-                take = dp(i+1, j+1)
+        #     take = 0
+        #     if s[i] == t[j]:
+        #         take = dp(i+1, j+1)
             
-            skip = dp(i + 1, j)
-            memo[(i, j)] = skip + take
+        #     skip = dp(i + 1, j)
+        #     memo[(i, j)] = skip + take
 
-            return memo[(i, j)]
+        #     return memo[(i, j)]
 
-        return dp(0, 0)
+        # return dp(0, 0)
+        ROW, COL = len(s), len(t)
+        dp = [[0] * (COL + 1) for _ in range(ROW + 1)]
+
+        # Base case: empty t can always be matched
+        for i in range(ROW + 1):
+            dp[i][COL] = 1
+
+        # Fill table bottom-up
+        for i in range(ROW - 1, -1, -1):
+            for j in range(COL - 1, -1, -1):
+                if s[i] == t[j]:
+                    dp[i][j] = dp[i + 1][j + 1] + dp[i + 1][j]
+                else:
+                    dp[i][j] = dp[i + 1][j]
+
+        return dp[0][0]
+        
