@@ -260,6 +260,7 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
+| [0392-is-subsequence](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0392-is-subsequence) |
 | [0475-heaters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0475-heaters) |
 | [0567-permutation-in-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0567-permutation-in-string) |
 | [0868-push-dominoes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0868-push-dominoes) |
@@ -294,6 +295,7 @@
 | [0067-add-binary](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
+| [0392-is-subsequence](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0392-is-subsequence) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
@@ -314,6 +316,7 @@
 | ------- |
 | [0064-minimum-path-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0064-minimum-path-sum) |
 | [0337-house-robber-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0337-house-robber-iii) |
+| [0392-is-subsequence](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0410-split-array-largest-sum) |
 | [0518-coin-change-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0518-coin-change-ii) |
 | [0806-domino-and-tromino-tiling](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0806-domino-and-tromino-tiling) |
