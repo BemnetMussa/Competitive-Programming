@@ -294,6 +294,7 @@
 | [0006-zigzag-conversion](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0006-zigzag-conversion) |
 | [0067-add-binary](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0076-minimum-window-substring) |
+| [0115-distinct-subsequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0115-distinct-subsequences) |
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
 | [0392-is-subsequence](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0392-is-subsequence) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -315,6 +316,7 @@
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0064-minimum-path-sum) |
+| [0115-distinct-subsequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0115-distinct-subsequences) |
 | [0337-house-robber-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0337-house-robber-iii) |
 | [0392-is-subsequence](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0410-split-array-largest-sum) |
