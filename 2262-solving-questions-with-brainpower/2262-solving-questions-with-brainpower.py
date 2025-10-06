@@ -48,16 +48,13 @@ class Solution:
         N = len(questions)
         dp = [0] * (N + 1)  # Extra space to handle out-of-bound skips
 
-        for i in range(N-1, -1, -1):
-            profit, brainPower = questions[i]
-            nextQ = i + brainPower + 1 # b/c 0 + 2 + 1 = 3
+        for i in range(N - 1, -1, -1):
+            points, brainpower = questions[i]
+            next_q = i + brainpower + 1
+            
+            solve = points + (dp[next_q] if next_q < N else 0)
+            skip = dp[i + 1]
 
-            # solve 
-            solve = profit + (dp[nextQ] if nextQ < N else 0)
-            skip = dp[i+1]
+            dp[i] = max(solve, skip) 
 
-            dp[i] = max(solve, skip) # taking the max rather than recomputing 
-        
-        return dp[0] #always the max will be on 0-index
-
-
+        return dp[0]
