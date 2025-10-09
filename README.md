@@ -130,6 +130,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0279-perfect-squares) |
 | [0721-accounts-merge](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0733-flood-fill) |
 | [0820-find-eventual-safe-states](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0820-find-eventual-safe-states) |
@@ -217,6 +218,7 @@
 | ------- |
 | [0067-add-binary](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0231-power-of-two) |
+| [0279-perfect-squares](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0279-perfect-squares) |
 | [0679-24-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0679-24-game) |
 | [0867-new-21-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0867-new-21-game) |
 | [1013-fibonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1013-fibonacci-number) |
@@ -322,6 +324,7 @@
 | [0064-minimum-path-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0064-minimum-path-sum) |
 | [0115-distinct-subsequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0115-distinct-subsequences) |
 | [0174-dungeon-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0174-dungeon-game) |
+| [0279-perfect-squares](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0279-perfect-squares) |
 | [0337-house-robber-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0337-house-robber-iii) |
 | [0377-combination-sum-iv](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0392-is-subsequence) |
