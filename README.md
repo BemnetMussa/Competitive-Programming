@@ -48,6 +48,7 @@
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2529-range-product-queries-of-powers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2529-range-product-queries-of-powers) |
+| [2546-number-of-subarrays-with-gcd-equal-to-k](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2546-number-of-subarrays-with-gcd-equal-to-k) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
 | [2915-count-of-interesting-subarrays](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2915-count-of-interesting-subarrays) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -225,6 +226,7 @@
 | [1018-largest-perimeter-triangle](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1018-largest-perimeter-triangle) |
 | [1236-n-th-tribonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1236-n-th-tribonacci-number) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [2546-number-of-subarrays-with-gcd-equal-to-k](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2546-number-of-subarrays-with-gcd-equal-to-k) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
@@ -447,4 +449,8 @@
 |  |
 | ------- |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0698-partition-to-k-equal-sum-subsets) |
+## Number Theory
+|  |
+| ------- |
+| [2546-number-of-subarrays-with-gcd-equal-to-k](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2546-number-of-subarrays-with-gcd-equal-to-k) |
 <!---LeetCode Topics End-->
