@@ -9,6 +9,7 @@
 | [0135-candy](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0136-single-number) |
 | [0174-dungeon-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0174-dungeon-game) |
+| [0204-count-primes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0204-count-primes) |
 | [0275-h-index-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0275-h-index-ii) |
 | [0347-top-k-frequent-elements](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -222,6 +223,7 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0067-add-binary) |
+| [0204-count-primes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0279-perfect-squares) |
 | [0679-24-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0679-24-game) |
@@ -416,6 +418,7 @@
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0204-count-primes) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
@@ -465,5 +468,6 @@
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0204-count-primes) |
 | [2546-number-of-subarrays-with-gcd-equal-to-k](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2546-number-of-subarrays-with-gcd-equal-to-k) |
 <!---LeetCode Topics End-->
