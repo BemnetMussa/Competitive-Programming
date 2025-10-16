@@ -73,6 +73,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
+| [0208-implement-trie-prefix-tree](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0567-permutation-in-string) |
@@ -179,6 +180,7 @@
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
@@ -314,6 +316,7 @@
 | [0076-minimum-window-substring](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0076-minimum-window-substring) |
 | [0115-distinct-subsequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0115-distinct-subsequences) |
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
+| [0208-implement-trie-prefix-tree](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0208-implement-trie-prefix-tree) |
 | [0392-is-subsequence](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0392-is-subsequence) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0567-permutation-in-string) |
@@ -328,6 +331,7 @@
 ## Trie
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0208-implement-trie-prefix-tree) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 ## Dynamic Programming
