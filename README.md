@@ -16,6 +16,7 @@
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0377-combination-sum-iv](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0377-combination-sum-iv) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0380-insert-delete-getrandom-o1](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0380-insert-delete-getrandom-o1) |
 | [0410-split-array-largest-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0410-split-array-largest-sum) |
 | [0475-heaters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0475-heaters) |
 | [0518-coin-change-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0518-coin-change-ii) |
@@ -76,6 +77,7 @@
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
 | [0208-implement-trie-prefix-tree](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0380-insert-delete-getrandom-o1) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
@@ -183,6 +185,7 @@
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
+| [0380-insert-delete-getrandom-o1](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
@@ -229,6 +232,7 @@
 | [0204-count-primes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0279-perfect-squares) |
+| [0380-insert-delete-getrandom-o1](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0380-insert-delete-getrandom-o1) |
 | [0679-24-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0679-24-game) |
 | [0867-new-21-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0867-new-21-game) |
 | [1013-fibonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1013-fibonacci-number) |
@@ -476,4 +480,8 @@
 | ------- |
 | [0204-count-primes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0204-count-primes) |
 | [2546-number-of-subarrays-with-gcd-equal-to-k](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2546-number-of-subarrays-with-gcd-equal-to-k) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
