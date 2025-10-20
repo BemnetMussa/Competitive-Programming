@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0033-search-in-rotated-sorted-array) |
 | [0051-n-queens](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0051-n-queens) |
 | [0064-minimum-path-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0064-minimum-path-sum) |
 | [0135-candy](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0135-candy) |
@@ -192,6 +193,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0033-search-in-rotated-sorted-array) |
 | [0275-h-index-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0275-h-index-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0410-split-array-largest-sum) |
