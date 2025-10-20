@@ -135,6 +135,7 @@
 | [0820-find-eventual-safe-states](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0820-find-eventual-safe-states) |
 | [0881-loud-and-rich](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0881-loud-and-rich) |
 | [0999-regions-cut-by-slashes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0999-regions-cut-by-slashes) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Breadth-First Search
 |  |
@@ -145,6 +146,7 @@
 | [0820-find-eventual-safe-states](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0820-find-eventual-safe-states) |
 | [0999-regions-cut-by-slashes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0999-regions-cut-by-slashes) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1876-map-of-highest-peak](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1876-map-of-highest-peak) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Graph
@@ -329,6 +331,7 @@
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0721-accounts-merge) |
 | [0868-push-dominoes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0868-push-dominoes) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2346-largest-3-same-digit-number-in-string) |
@@ -429,6 +432,7 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0204-count-primes) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
