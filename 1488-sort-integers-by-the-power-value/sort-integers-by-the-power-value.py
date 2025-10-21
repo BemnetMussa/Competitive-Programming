@@ -1,39 +1,19 @@
 class Solution:
     def getKth(self, lo: int, hi: int, k: int) -> int:
+        memo = {}
+
+        def helper(x):
+            if x == 1:
+                return 0
+            if x not in memo:
+                if x % 2 == 0:
+                    memo[x] = 1 + helper(x//2)
+                    return memo[x]
+                memo[x] = 1 + helper(x * 3 + 1)
+            return memo[x]
         
-        # lo, hi, k
-        # [12, 13, 14, 15]
-        # [9, 9,  17, 17] --> power for [lo, hi]
-        @cache
-        def helper(val):
-            steps = 0 # 2...
-           
-            while val != 1: # 12, 6, 3, 10, 5, ....
-                if val % 2 == 0:
-                    val /= 2
-                else:
-                    val = 3 * val + 1
-                    
-                steps += 1
-                
-            return steps
-                    
+        num_pows = sorted([(helper(num), num) for num in range(lo, hi+1)])
         
-        # sorting based on the power values, return k->index
-        
-        array = [x for x in range(lo, hi+1)]
-     
-        # sorting
-        sorted_hash = {} # keys: steps, values: array[values]
-        
-        for i in range(len(array)):
-            steps = helper(array[i]) # 12
-            sorted_hash[array[i]] = steps
-            
-        sorted_array = []
-        for key, value in sorted_hash.items():
-            sorted_array.append((value, key))
-        
-        sorted_array.sort()
-        
-        return sorted_array[k-1][1]
+
+        return num_pows[k-1][1]
+  
