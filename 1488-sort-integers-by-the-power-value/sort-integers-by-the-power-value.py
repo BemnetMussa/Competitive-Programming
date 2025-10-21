@@ -4,6 +4,7 @@ class Solution:
         # lo, hi, k
         # [12, 13, 14, 15]
         # [9, 9,  17, 17] --> power for [lo, hi]
+        @cache
         def helper(val):
             steps = 0 # 2...
            
@@ -36,8 +37,3 @@ class Solution:
         sorted_array.sort()
         
         return sorted_array[k-1][1]
-            
-        
-            
-        
-        
