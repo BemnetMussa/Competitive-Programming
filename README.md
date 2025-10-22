@@ -8,6 +8,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0033-search-in-rotated-sorted-array) |
 | [0051-n-queens](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0051-n-queens) |
 | [0064-minimum-path-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0073-set-matrix-zeroes) |
 | [0135-candy](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0136-single-number) |
 | [0174-dungeon-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0174-dungeon-game) |
@@ -74,6 +75,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0073-set-matrix-zeroes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
 | [0208-implement-trie-prefix-tree](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0208-implement-trie-prefix-tree) |
@@ -168,6 +170,7 @@
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0073-set-matrix-zeroes) |
 | [0174-dungeon-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0174-dungeon-game) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0733-flood-fill](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0733-flood-fill) |
