@@ -1,24 +1,31 @@
-class Solution(object):
-    def decodeString(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
-        num=0
-        stack=[]
-        curr_str=""
-        for x in s:
-            if x.isdigit():
-                num=num*10+int(x)
-            elif x=='[':
-                stack.append((num,curr_str))
-                num=0
-                curr_str=""
-            elif x==']':
-                num,prev_str=stack.pop()
-                curr_str=prev_str+num*curr_str
-                num=0
+'''
+
+
+'''
+
+class Solution:
+    def decodeString(self, s: str) -> str:
+        # 3[a]2[bc]
+
+        stack = []
+        current_str = ""
+        current_num = 0
+
+        for char in s:
+            if char.isdigit():
+                current_num = current_num * 10 + int(char) # 1 upto 9 but 10[...]
+            elif char == "[":
+                stack.append((current_str, current_num))
+                current_str = ""
+                current_num = 0
+            elif char == "]":
+                prev_str, prev_num = stack.pop()
+                current_str = prev_str + current_str * prev_num
+
             else:
-                curr_str=curr_str+x
-                
-        return curr_str
+                current_str += char
+
+        return current_str
+
+
+        
