@@ -332,6 +332,7 @@
 | [0187-repeated-dna-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0187-repeated-dna-sequences) |
 | [0208-implement-trie-prefix-tree](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0208-implement-trie-prefix-tree) |
 | [0392-is-subsequence](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0394-decode-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
@@ -433,6 +434,7 @@
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0231-power-of-two) |
+| [0394-decode-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1013-fibonacci-number) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Enumeration
@@ -447,6 +449,7 @@
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0394-decode-string) |
 | [1628-count-submatrices-with-all-ones](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1628-count-submatrices-with-all-ones) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Segment Tree
