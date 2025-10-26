@@ -45,6 +45,7 @@
 | [1917-maximum-average-pass-ratio](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1917-maximum-average-pass-ratio) |
 | [1962-single-threaded-cpu](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1962-single-threaded-cpu) |
 | [2048-build-array-from-permutation](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2048-build-array-from-permutation) |
+| [2169-simple-bank-system](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2169-simple-bank-system) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2262-solving-questions-with-brainpower](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2262-solving-questions-with-brainpower) |
@@ -91,6 +92,7 @@
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1813-maximum-erasure-value](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1834-minimum-number-of-people-to-teach) |
+| [2169-simple-bank-system](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2169-simple-bank-system) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2479-meeting-rooms-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2479-meeting-rooms-iii) |
 | [2915-count-of-interesting-subarrays](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2915-count-of-interesting-subarrays) |
@@ -193,6 +195,7 @@
 | [0295-find-median-from-data-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
 | [0380-insert-delete-getrandom-o1](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
+| [2169-simple-bank-system](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2169-simple-bank-system) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -386,6 +389,7 @@
 | ------- |
 | [0067-add-binary](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0067-add-binary) |
 | [2048-build-array-from-permutation](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2048-build-array-from-permutation) |
+| [2169-simple-bank-system](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2169-simple-bank-system) |
 | [2479-meeting-rooms-iii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2479-meeting-rooms-iii) |
 ## Shortest Path
 |  |
