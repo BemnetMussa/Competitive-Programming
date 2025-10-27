@@ -34,6 +34,7 @@
 | [1034-subarrays-with-k-different-integers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1034-subarrays-with-k-different-integers) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1272-invalid-transactions](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1272-invalid-transactions) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -90,6 +91,7 @@
 | [0999-regions-cut-by-slashes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0999-regions-cut-by-slashes) |
 | [1034-subarrays-with-k-different-integers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1034-subarrays-with-k-different-integers) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1272-invalid-transactions](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1272-invalid-transactions) |
 | [1813-maximum-erasure-value](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2169-simple-bank-system](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2169-simple-bank-system) |
@@ -280,6 +282,7 @@
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0721-accounts-merge) |
 | [1018-largest-perimeter-triangle](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1018-largest-perimeter-triangle) |
+| [1272-invalid-transactions](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1272-invalid-transactions) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1962-single-threaded-cpu](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1962-single-threaded-cpu) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -341,6 +344,7 @@
 | [0692-top-k-frequent-words](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0721-accounts-merge) |
 | [0868-push-dominoes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0868-push-dominoes) |
+| [1272-invalid-transactions](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1272-invalid-transactions) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2256-count-words-obtained-after-adding-a-letter) |
