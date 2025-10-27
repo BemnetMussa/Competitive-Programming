@@ -12,4 +12,9 @@ class Solution:
 
         '''
 
-        return Counter(s) == Counter(t)
+        temp = set(s + t)
+        for char in temp:
+            if s.count(char) != t.count(char):
+                return False
+      
+        return True
