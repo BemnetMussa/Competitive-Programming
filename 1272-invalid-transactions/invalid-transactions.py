@@ -36,12 +36,13 @@ class Solution:
             for i in range(len(txn)): 
                 time, price, city, org_i = txn[i]
           
-                for j in range(i+1, len(txn)):
+                j = i + 1
+                while j < len(txn) and txn[j][0] - time <= 60: # slightly efficnet 
                     time_j, price_j, city_j, org_j = txn[j]
-
-                    if abs(time - time_j) <= 60 and city_j != city:
+                    if city_j != city:
                         result.add(org_i)
                         result.add(org_j)
+                    j += 1
           
                 if price > 1000:
                     result.add(org_i)
