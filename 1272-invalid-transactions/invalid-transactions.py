@@ -1,53 +1,38 @@
-'''
-Given: array of strings transaction where transactions[i] consists of comma-separated values representing the (name, time (in minutes), amount, city of the transaction.)
-
-Return: list of transactions that are possibly invalid. You may return the answer in **any order.
-Transaction is invalid if: 
-    - amount exceeds 1000
-    - if it occurses within 60 minutes of another transaction with the same name, in differnet city.
-
-transactions = ["alice,20,800,mtv","alice,50,100,beijing"]
-                                                                --> invalid = [txn1, txn2]
-                       | (50-20) < 60
-transactions = ["alice,20,8000,mtv","alice,100,100,beijing"]
-                                                                --> invalid = [txn1]
-                       | (100-20) > 60 
-                       check the price > 1000
-
-transactions.length <= 1000
-
-
-
-'''
+from typing import List
+from collections import defaultdict
 
 class Solution:
     def invalidTransactions(self, transactions: List[str]) -> List[str]:
-        
-        hashmap = defaultdict(list)
-        result = set()
+        # Group transactions by name
+        people = defaultdict(list)
+        for i, t in enumerate(transactions):
+            name, time, amount, city = t.split(",")
+            people[name].append((int(time), int(amount), city, i))
 
-        for i, txn in enumerate(transactions):
-            name, time, price, city = txn.split(",")
-            time = int(time)
-            price = int(price)
+        invalid = set()
 
-            for j in hashmap[name]:
-                prev_name, prev_time, prev_price, prev_city = transactions[j].split(",")
-                prev_time = int(prev_time)
+        for name, txns in people.items():
+            # Sort transactions by time
+            txns.sort(key=lambda x: x[0])
+            l = 0  # left pointer for sliding window
 
-                if abs(time - prev_time) <= 60 and prev_city != city:
-                    result.add(i)
-                    result.add(j)
-                    
-            if price > 1000:
-                result.add(i)
+            for r in range(len(txns)):
+                time_r, amount_r, city_r, idx_r = txns[r]
 
-            hashmap[name].append(i)
-     
-        return [transactions[i] for i in result]
+                # Check amount > 1000
+                if amount_r > 1000:
+                    invalid.add(idx_r)
 
+                # Move left pointer to maintain 60-minute window
+                while time_r - txns[l][0] > 60:
+                    l += 1
 
+                # Compare current transaction with all in the window
+                for k in range(l, r):
+                    _, _, city_k, idx_k = txns[k]
+                    if city_r != city_k:
+                        invalid.add(idx_r)
+                        invalid.add(idx_k)
 
-
-            
-            
+        # Return transactions in original input order
+        return [transactions[i] for i in sorted(invalid)]
