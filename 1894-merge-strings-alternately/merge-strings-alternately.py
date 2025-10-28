@@ -6,5 +6,5 @@ class Solution:
             if i < n:
                 res.append(word1[i])
             if i < m:
-                res.append(word2[i])
+                res.append(word2[i]) # this was not cool damnn how did i didn't think about it
         return "".join(res)
