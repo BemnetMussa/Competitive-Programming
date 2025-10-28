@@ -1,24 +1,34 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        # abcd          docio
-        # |                               1
-        #               | 
+        '''
+        given word1 and word2 and merge the words into one single merge if there is a stirng is longer than the other. append the additonal eletters onto the end of the merged string. 
+        return the merged string. 
 
-        ptr = 0
+        approch: - if the length of the other is greater just add it to the last of the concacted string
 
+        "abc", "pqr"
+         |     | 
+         merge sort the mergeing part only()
+        '''
 
-        res = []
-        while ( ptr < len(word1) and ptr < len(word2)):
-            res.append(word1[ptr])
-            res.append(word2[ptr])
-            ptr += 1
+        conc = ""
 
-        print(res)
-        if (len(word1[ptr:]) > len(word2[ptr:])):
-            res.append(word1[ptr:])
+        ptr = ptr1 = 0
+        alt = True
+        while ptr < len(word1) and ptr1 < len(word2):
+            if alt:
+                conc += word1[ptr]
+                ptr += 1
 
-        elif ( len(word1[ptr:]) < len(word2[ptr:])):
-            res.append(word2[ptr:])
+            else:
+                conc += word2[ptr1]
+                ptr1 += 1
+            alt = not alt
 
-        
-        return ''.join(res)
+        if ptr < len(word1):
+            conc = conc + word1[ptr:]
+
+        if ptr1 < len(word2):
+            conc = conc + word2[ptr1:]
+
+        return conc
