@@ -26,30 +26,35 @@ solution:
 forgot about the code and so on shitttt. 
 '''
 
-
-
 class Solution:
-    def closestPrimes(self, left: int, right: int) -> list[int]:
-        # Sieve up to right
-        sieve = [True] * (right + 1)
-        sieve[0:2] = [False, False]
-        for i in range(2, isqrt(right) + 1):
-            if sieve[i]:
-                for j in range(i*i, right+1, i):
-                    sieve[j] = False
+    def __init__(self):
+        # self.sieve up to  right -- gives us primes that are valid upto right
+        max_right = 10**6
+        self.sieve = [True] * (10**6 + 1)
+        self.sieve[0:2] = [False, False]
         
-        # Collect primes in the range [left, right]
-        primes = [i for i in range(left, right+1) if sieve[i]]
+        for i in range(2, max_right + 1):
+            if self.sieve[i]:
+                for j in range(i*i, (max_right)+1, i):
+                    self.sieve[j] = False
+
+    def closestPrimes(self, left: int, right: int) -> list[int]:
+        # collect prime numbers
+        primes = [x for x in range(left, right+1) if self.sieve[x]]
         if len(primes) < 2:
             return [-1, -1]
         
-        # Find pair with minimum gap
+        #find the minimum one
         min_gap = float('inf')
         ans = [-1, -1]
-        for i in range(len(primes)-1):
+
+        for i in range(len(primes) -1):
             gap = primes[i+1] - primes[i]
             if gap < min_gap:
                 min_gap = gap
                 ans = [primes[i], primes[i+1]]
-        
+
         return ans
+
+        
+
