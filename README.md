@@ -253,6 +253,7 @@
 | [1236-n-th-tribonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1236-n-th-tribonacci-number) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2546-number-of-subarrays-with-gcd-equal-to-k](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2546-number-of-subarrays-with-gcd-equal-to-k) |
+| [2610-closest-prime-numbers-in-range](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2610-closest-prime-numbers-in-range) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
@@ -503,6 +504,7 @@
 | ------- |
 | [0204-count-primes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0204-count-primes) |
 | [2546-number-of-subarrays-with-gcd-equal-to-k](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2546-number-of-subarrays-with-gcd-equal-to-k) |
+| [2610-closest-prime-numbers-in-range](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2610-closest-prime-numbers-in-range) |
 ## Randomized
 |  |
 | ------- |
