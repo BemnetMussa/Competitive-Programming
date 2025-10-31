@@ -1,12 +1,10 @@
 class Solution:
     def getSneakyNumbers(self, nums: List[int]) -> List[int]:
+        repeat = []
         
+        nums.sort()
+        for i in range(1, len(nums)):
+            if nums[i-1] == nums[i]:
+                repeat.append(nums[i-1])
 
-        counter_nums = Counter(nums)
-
-        ans = []
-        for num in counter_nums:
-            if counter_nums[num] > 1:
-                ans.append(num)
-
-        return ans
+        return repeat
