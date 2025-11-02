@@ -100,6 +100,7 @@
 | [2915-count-of-interesting-subarrays](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2915-count-of-interesting-subarrays) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3750-closest-equal-element-queries](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3750-closest-equal-element-queries) |
 ## Prefix Sum
 |  |
@@ -258,6 +259,7 @@
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3637-count-number-of-balanced-permutations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3637-count-number-of-balanced-permutations) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Greedy
@@ -324,6 +326,7 @@
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Quickselect
 |  |
 | ------- |
@@ -351,6 +354,7 @@
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3637-count-number-of-balanced-permutations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3637-count-number-of-balanced-permutations) |
 ## Trie
 |  |
@@ -381,6 +385,7 @@
 | [2262-solving-questions-with-brainpower](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2262-solving-questions-with-brainpower) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3637-count-number-of-balanced-permutations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3637-count-number-of-balanced-permutations) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Union Find
