@@ -256,6 +256,7 @@
 | [2546-number-of-subarrays-with-gcd-equal-to-k](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2546-number-of-subarrays-with-gcd-equal-to-k) |
 | [2610-closest-prime-numbers-in-range](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2610-closest-prime-numbers-in-range) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
+| [3201-distribute-candies-among-children-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3201-distribute-candies-among-children-ii) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -413,6 +414,7 @@
 ## Combinatorics
 |  |
 | ------- |
+| [3201-distribute-candies-among-children-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3201-distribute-candies-among-children-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3637-count-number-of-balanced-permutations) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Bit Manipulation
@@ -456,6 +458,7 @@
 | ------- |
 | [0204-count-primes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0204-count-primes) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
+| [3201-distribute-candies-among-children-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3201-distribute-candies-among-children-ii) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
