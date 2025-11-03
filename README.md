@@ -45,6 +45,7 @@
 | [1876-map-of-highest-peak](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1876-map-of-highest-peak) |
 | [1917-maximum-average-pass-ratio](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1917-maximum-average-pass-ratio) |
 | [1962-single-threaded-cpu](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1962-single-threaded-cpu) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2048-build-array-from-permutation](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2048-build-array-from-permutation) |
 | [2169-simple-bank-system](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2169-simple-bank-system) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -253,6 +254,7 @@
 | [1018-largest-perimeter-triangle](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1018-largest-perimeter-triangle) |
 | [1236-n-th-tribonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1236-n-th-tribonacci-number) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2546-number-of-subarrays-with-gcd-equal-to-k](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2546-number-of-subarrays-with-gcd-equal-to-k) |
 | [2610-closest-prime-numbers-in-range](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2610-closest-prime-numbers-in-range) |
 | [2621-find-xor-beauty-of-array](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2621-find-xor-beauty-of-array) |
@@ -414,6 +416,7 @@
 ## Combinatorics
 |  |
 | ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3201-distribute-candies-among-children-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3201-distribute-candies-among-children-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3637-count-number-of-balanced-permutations) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
@@ -426,6 +429,7 @@
 | [0231-power-of-two](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0231-power-of-two) |
 | [0461-hamming-distance](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0461-hamming-distance) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2529-range-product-queries-of-powers](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2529-range-product-queries-of-powers) |
@@ -438,6 +442,7 @@
 | [0051-n-queens](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0051-n-queens) |
 | [0679-24-game](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0679-24-game) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -458,6 +463,7 @@
 | ------- |
 | [0204-count-primes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0204-count-primes) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3201-distribute-candies-among-children-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3201-distribute-candies-among-children-ii) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
