@@ -164,6 +164,7 @@
 | [0820-find-eventual-safe-states](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0820-find-eventual-safe-states) |
 | [0881-loud-and-rich](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0881-loud-and-rich) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1706-min-cost-to-connect-all-points](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1706-min-cost-to-connect-all-points) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -385,6 +386,7 @@
 | [0868-push-dominoes](https://github.com/BemnetMussa/Competitive-Programming/tree/master/0868-push-dominoes) |
 | [1013-fibonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1236-n-th-tribonacci-number) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1628-count-submatrices-with-all-ones](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1628-count-submatrices-with-all-ones) |
 | [2262-solving-questions-with-brainpower](https://github.com/BemnetMussa/Competitive-Programming/tree/master/2262-solving-questions-with-brainpower) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -408,6 +410,7 @@
 ## Shortest Path
 |  |
 | ------- |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/BemnetMussa/Competitive-Programming/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/BemnetMussa/Competitive-Programming/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Minimum Spanning Tree
