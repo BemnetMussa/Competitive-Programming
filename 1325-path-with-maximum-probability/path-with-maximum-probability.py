@@ -26,7 +26,9 @@ class Solution:
         while heap:
             prob, node = heapq.heappop(heap)
             prob = -prob # convert to positive
-            
+            if prob < max_prob[node]:
+                continue
+
             if node == end_node:
                 return prob
             
