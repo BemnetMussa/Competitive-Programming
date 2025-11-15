@@ -1,30 +1,42 @@
+'''
+given m by n grid which represents a map of '1' land and '0' water. return the number of islands.
+requested: to get the number of islands that are surrounded by water. 
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+
+
+'''
+
+
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        if not grid:
-            return 0
+        ROWS, COLS = len(grid), len(grid[0])
 
-        rows, cols = len(grid), len(grid[0])
-        visited = set()
-        islands = 0
-        
-        directions = [(0, 1), (1, 0), (-1, 0), (0, -1)]
-
-        def inbound(row, col):
-            return 0 <= row < rows and 0 <= col < cols
-
-        def scan(row, col):
-            if not inbound(row, col) or grid[row][col] == "0" or (row, col) in visited:
+        directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
+        def backTracking(i, j):
+            if i < 0 or j < 0 or i >= ROWS or j >= COLS:
                 return
 
-            visited.add((row, col))
-
+            if grid[i][j] == "0" or visited[i][j]:
+                return
+            
+            visited[i][j] = True
             for dx, dy in directions:
-                scan(row + dx, col + dy)
+                nx, ny = dx + i, dy + j
+                backTracking(nx, ny)
 
-        for i in range(rows):
-            for j in range(cols):
-                if grid[i][j] == "1" and (i, j) not in visited:
-                    scan(i, j)
-                    islands += 1
+        visited = [[False for _ in range(COLS)] for _ in range(ROWS)]
 
-        return islands
+        res = 0
+        for i in range(ROWS):
+            for j in range(COLS):
+                if grid[i][j] == "1" and not visited[i][j]:
+                    backTracking(i, j)
+                    res += 1
+
+        return res
+
+
+        
