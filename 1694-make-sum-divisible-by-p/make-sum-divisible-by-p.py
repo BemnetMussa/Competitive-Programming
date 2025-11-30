@@ -26,8 +26,8 @@ class Solution:
         res = float('inf')
 
         for i, num in enumerate(nums):
-            curr = (curr + num) % p
-            needed = (curr - target) % p
+            curr = (curr + num) % p # 20
+            needed = (curr - target) % p # 
             if needed in prefix_mod:
                 res = min(res, i - prefix_mod[needed])
             prefix_mod[curr] = i
