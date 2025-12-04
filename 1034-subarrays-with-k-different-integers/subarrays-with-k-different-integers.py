@@ -18,13 +18,7 @@ class Solution:
                       ____  == k         [2, 3]
 
             [1,2,1,3,4]
-             | | | |    -> [1, 2, 1, 3]
-                 | | |  -> [1, 3, 4]
-            --> a problem it counts the subarrys of not actual k 
-             | |   -> [1, 2]
-             | | | -> [1, 2, 1], [2, 1]
-                 | | -> [1, 3]
-                   | | -> [3, 4]
+     
         
         Time Complexity O(n), space complexity O(n)
         Psuedocode
@@ -57,7 +51,6 @@ class Solution:
                     if freq[nums[left]] == 0:
                         del freq[nums[left]]
                     left += 1
-                
             
                 num_subarry += right - left +1
 
