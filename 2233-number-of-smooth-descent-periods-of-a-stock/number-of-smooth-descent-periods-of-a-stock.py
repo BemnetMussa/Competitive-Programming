@@ -19,7 +19,7 @@ class Solution:
 
         for right, num in enumerate(prices):
             count += 1 # as a single number
-            if right > 0 and prices[right - 1] > num and prices[right-1] - prices[right] == 1:
+            if right > 0 and prices[right-1] - prices[right] == 1:
                 count += (right - left)
 
             else:
