@@ -11,14 +11,13 @@ class Solution:
 
         while queue:
             node = queue.popleft()
-
             if node.val != val:
                 return False
 
             if node.left:
                 queue.append(node.left)
-
             if node.right:
                 queue.append(node.right)
+
 
         return True
