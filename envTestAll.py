@@ -107,3 +107,17 @@ for _ in range(t):
 """
 
 
+# 116. Populating Next RIght Pointers in EAch Node
+# approch will be move both paths from the left to the right 
+
+class Node:
+    def __init__(self, val=0, left=None, right=None, next=None):
+        self.val = val
+        self.left = left
+        self.right = right
+        self.next = next
+
+class Solution:
+    def connect(self, root):
+        root = Node(root.val)
+        root.left = 
