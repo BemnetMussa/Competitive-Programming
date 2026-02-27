@@ -26,6 +26,10 @@ for _ in range(t):
         pos = M.index(minm)
         res = M[pos:] + M[:pos]
     else:
+
+
+
+        
         s0 = S[0]
         minm = min(M)
         if minm < s0:
