@@ -66,7 +66,7 @@ def max_replace(n, q, a, b, q):
         answer.append(total)
 
     print(*answer)
-"""
+
 t = int(input())
 for _ in range(t):
     n, q_count = map(int, input().split())
@@ -97,5 +97,6 @@ def max_replace_optimzed(n, q_count, a, b, queries):
 
         answer.append(total)
     print(answer)
+"""
 
-        
+
