@@ -20,4 +20,5 @@ for i in range(1, n):
 
     min_swaps = min(min_swaps, current)
 
-print(min_swaps)
+print(min_swaps)'
+'
