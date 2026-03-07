@@ -1,38 +1,28 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         '''
-
+        1. states:
+                    dp[m][n]
+        2. transitions: 
+                    dp[m][n] = dp[m-1][n] + dp[m][n-1] # top + left
+        3. baseCase:
+                    when we reach the (m-1, n-1). 
         '''
+        memo = {}
+        def dp(i, j):
+            # basecase
+            if not(0 <= i < m) or not(0 <= j < n):
+                return 0
+            if (i, j) == (m-1, n-1): # final postioin 
+                return 1
 
-        # Step 1: state space
-        bottom_up = [[0] * (n) for _ in range(m)]
+            if (i, j) in memo:
+                return memo[(i, j)]
+            # Transitoin
+            answer = dp(i+1, j) + dp(i, j+1)
 
-        # Step 2: Intialize the state space
-        for i in range(m):
-            for j in range(n):
-                bottom_up[i][j] = 1
-        
+            memo[(i, j)] = answer
+            # result
+            return answer
 
-        # Step 3: tranation of states
-        # Step 4: fill in proper strcutre
-        for i in range(1, m):
-            for j in range(1, n):
-                bottom_up[i][j] = bottom_up[i-1][j] + bottom_up[i][j-1] # top + left
-
-        print(bottom_up)
-        return bottom_up[m-1][n-1]
-
-        
-        # memo = {}
-        # def dp(i, j):
-        #     if i > m-1 or j > n-1:
-        #         return 0
-        #     if (i, j) == (m-1, n-1):
-        #         return 1
-        #     if (i, j) in memo:
-        #         return memo[(i, j)]
-            
-        #     memo[(i, j)] =  dp(i+1, j) + dp(i, j+1)
-        #     return memo[(i, j)]
-        
-        # return dp(0, 0)
+        return dp(0, 0)
