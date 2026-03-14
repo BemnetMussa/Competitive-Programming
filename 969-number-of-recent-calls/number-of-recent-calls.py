@@ -1,10 +1,18 @@
 class RecentCounter:
+
     def __init__(self):
-        self.records = []
-        self.start = 0
+        self.array = []
 
     def ping(self, t: int) -> int:
-        self.records.append(t)
-        while self.records[self.start] < t - 3000:
-            self.start += 1
-        return len(self.records) - self.start
+        self.array.append(t)
+        while (t-self.array[0]) > 3000:
+            self.array.pop(0)
+
+        return len(self.array)
+
+        
+
+
+# Your RecentCounter object will be instantiated and called as such:
+# obj = RecentCounter()
+# param_1 = obj.ping(t)
