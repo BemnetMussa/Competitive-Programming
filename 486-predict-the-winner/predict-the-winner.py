@@ -1,8 +1,7 @@
 class Solution:
     def predictTheWinner(self, nums: List[int]) -> bool:
         n = len(nums)
-        
-        @lru_cache(maxsize=None)
+
         def gamE(left: int, right: int) -> int:
             if left == right:
                 return nums[left]
