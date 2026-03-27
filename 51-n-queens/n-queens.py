@@ -14,7 +14,7 @@ class Solution:
 
             for c in range(n):
                 pd = r + c
-                nd = r - c + (n - 1)
+                nd = r - c
 
                 if cols[c] or posDiag[pd] or negDiag[nd]:
                     continue
