@@ -1,0 +1,80 @@
+y# 1649. Create a sorted array through Instruction
+'''
+Given: a list of instrcution nums[int]
+Requested: to find the cost of each inserion on the arry the cost can be calcualted by
+cost = min( a element that is *stricly larger than numbers[i], a element that is *strictlery greater than numbers[i])
+
+approch:
+    basically two approches:
+        1. Find the position of the array 
+        2. find the left side for the smallest on and the other half the elelment that is larger than 
+
+Nive approch it just iteartie find the postioin and slice the left one and slice the right one and get min and max and take the smallest one and add the cost for teh element
+0> O(N^2)
+> 1. string the index effintly some how let jus say dynamically shiftting 
+  2. if we foudn that then use merge sort and fin dthe minume with the respect of the left side and the maximum with the respect of the right side
+it will take us O(nlogn) --> is there is a bettter way to find the index. since regardless whnever we shiftt then we nee to update the right side always worst case we just enetere a number to it each time so O(n) regraldess so nlogn will be fine
+no for instrction input and the sorting it will cost us (N*Nlogn) shitt
+do i need to track the index ??? 
+what if i just run a binary search on it then whenever i foudn teh postiion i will call the merge sort so it will run me (N*logn*logn) so pretty effient niceee
+'''
+
+
+left = 0
+right = len(nums) - 1
+
+while left < right:
+    mid = (right - left ) // 2 + left
+
+    if nums[mid] > currentElement:
+        right = mid - 1
+    elif nums[mid] < currentEleemtn:
+        left = mid + 1
+
+    else:
+        mergeSort(mid)
+
+
+def mergeSort(i):
+    minimum = leftSide(nums[:i+1])
+    maximum = rightSide(nums[i:])
+
+    return min(minimum, maximum)
+
+def minimum(numbers):
+    zmin = float("inf")
+    #effent way than O(n) to find the number ? which is divide them on the middle obviously then insert the numbe rand we will udpate the gloabl oen shitt shitt that will run us shiftt of O(n) woest casee damnn so this approch aint gone work 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
