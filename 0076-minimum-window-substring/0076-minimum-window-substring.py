@@ -1,33 +1,40 @@
-from collections import Counter
+from collections import Counter, defaultdict
 
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        if not s or not t:
+        if not t or not s:
             return ""
 
-        counter_t = Counter(t)
-        window = Counter()
-        
-        have, need = 0, len(counter_t)
-        left = 0
-        ans = float("inf")
-        result = ""
+        need = Counter(t)
+        window = defaultdict(int)
 
-        for right in range(len(s)):
-            window[s[right]] += 1
-            
-            if s[right] in counter_t and window[s[right]] == counter_t[s[right]]:
+        have = 0
+        required = len(need)
+
+        res_len = float("inf")
+        res = ""
+
+        l = 0
+
+        for r in range(len(s)):
+            char = s[r]
+            window[char] += 1
+
+            if char in need and window[char] == need[char]:
                 have += 1
 
-            while have == need:  # valid window
-                if (right - left + 1) < ans:
-                    ans = right - left + 1
-                    result = s[left:right+1]
+            while have == required:
+                # update answer
+                if (r - l + 1) < res_len:
+                    res_len = r - l + 1
+                    res = s[l:r+1]
 
-                window[s[left]] -= 1
-                if s[left] in counter_t and window[s[left]] < counter_t[s[left]]:
+                # shrink
+                window[s[l]] -= 1
+
+                if s[l] in need and window[s[l]] < need[s[l]]:
                     have -= 1
-                
-                left += 1
-        
-        return result
+
+                l += 1
+
+        return res
