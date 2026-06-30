@@ -4,24 +4,28 @@ class Solution:
         Do not return anything, modify matrix in-place instead.
         """
         
-        # mark with "$" zeros positon
-        rows = len(matrix)
-        cols = len(matrix[0])
+        # to hold the row and col of the zeros
+        set_row = set()
+        set_col = set()
 
-        sets = set()
-            
 
-        for i in range(rows):
-            for j in range(cols):
+        row = len(matrix)
+        col = len(matrix[0])
+
+        for i in range(row):
+            for j in range(col):
+
                 if matrix[i][j] == 0:
-                    sets.add((i, j))
+                    set_row.add(i)
+                    set_col.add(j)
 
-        for x, y in sets:
-            for i in range(rows):
-                matrix[i][y] = 0
-            for j in range(cols):
-                matrix[x][j] = 0
-            
-           
+        
+        for i in range(row):
+            for j in range(col):
                 
-        # O(n^3) -> O(n^2)
+                if i in set_row or j in set_col:
+                    matrix[i][j] = 0
+
+        
+
+        print(matrix)
