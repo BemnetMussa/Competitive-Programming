@@ -8,28 +8,20 @@ class Solution:
         rows = len(matrix)
         cols = len(matrix[0])
 
-        def flip(x, y):
-            for i in range(rows):
-                if matrix[i][y] != "$":
-                    matrix[i][y] = 0
-
-            for j in range(cols):
-                if matrix[x][j] != "$":
-                    matrix[x][j] = 0
-
-            matrix[x][y] = 0
+        sets = set()
             
 
         for i in range(rows):
             for j in range(cols):
                 if matrix[i][j] == 0:
-                    matrix[i][j] = "$"
+                    sets.add((i, j))
 
-        for i in range(rows):
+        for x, y in sets:
+            for i in range(rows):
+                matrix[i][y] = 0
             for j in range(cols):
-                if matrix[i][j] == "$":
-                    flip(i,j)
+                matrix[x][j] = 0
+            
+           
                 
-        
-        
-        
+        # O(n^3) -> O(n^2)
