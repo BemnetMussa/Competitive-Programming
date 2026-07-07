@@ -1,5 +1,3 @@
-from collections import Counter, defaultdict
-
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         if not t or not s:
@@ -7,15 +5,14 @@ class Solution:
 
         need = Counter(t)
         window = defaultdict(int)
+        req = len(need)
 
         have = 0
-        required = len(need)
-
-        res_len = float("inf")
-        res = ""
-
+ 
+        ans = ""
+        ans_leng = float("inf")
+        
         l = 0
-
         for r in range(len(s)):
             char = s[r]
             window[char] += 1
@@ -23,18 +20,22 @@ class Solution:
             if char in need and window[char] == need[char]:
                 have += 1
 
-            while have == required:
-                # update answer
-                if (r - l + 1) < res_len:
-                    res_len = r - l + 1
-                    res = s[l:r+1]
+            while have == req:
 
-                # shrink
+                if (r - l + 1) < ans_leng:
+                    ans = s[l: r + 1]
+                    ans_leng = r - l + 1
+
                 window[s[l]] -= 1
-
                 if s[l] in need and window[s[l]] < need[s[l]]:
                     have -= 1
 
                 l += 1
 
-        return res
+
+        return ans
+
+
+
+
+
