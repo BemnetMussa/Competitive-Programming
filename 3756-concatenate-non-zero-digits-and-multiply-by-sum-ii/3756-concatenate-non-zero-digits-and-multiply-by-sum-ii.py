@@ -1,27 +1,43 @@
-MOD, MAX = 1000000007, 100001
-pow = [1] * MAX
-for i in range(1, MAX):
-    pow[i] = (pow[i - 1] * 10) % MOD
-
 class Solution:
     def sumAndMultiply(self, s: str, queries: list[list[int]]) -> list[int]:
-        n, res = len(s), []
-        A, B, Len = [[0] * (n + 1) for _ in range(3)]
+        MOD = 10**9 + 7
 
-        for i in range(n):
-            d = int(s[i])
-            A[i + 1] = A[i] + d
-            B[i + 1] = (B[i] * 10 + d) % MOD if d else B[i]
-            Len[i + 1] = Len[i] + (d > 0)
+        x_list = [0]
+        sum_list = [0]
+        lengths = [0]
 
-        res = []
+        conc = 0
+        curr_sum = 0
+        length = 0
 
+        power = [1] * (len(s) + 1)
+
+        for i in range(1, len(s) + 1):
+            power[i] = (power[i - 1] * 10) % MOD
+
+        for num in s:
+            digit = int(num)
+
+            if digit > 0:
+                conc = (conc * 10 + digit) % MOD
+                length += 1
+
+            curr_sum += digit
+
+            x_list.append(conc % MOD)
+            sum_list.append(curr_sum)
+            lengths.append(length)
+
+        answer = []
         for l, r in queries:
             r += 1
 
-            sub = (B[l] * pow[Len[r] - Len[l]]) % MOD
-            x = (B[r] - sub) % MOD
+            digit = lengths[r] - lengths[l]
+            # x = x_list[r] - ((x_list[l] * 10 ** digit) % MOD) # suprizingly comupting the digits is not time effeint 
+            x = (x_list[r] - (x_list[l] * power[digit]) % MOD) % MOD
+            digit_sum = sum_list[r] - sum_list[l]
 
-            res.append((x * (A[r] - A[l])) % MOD)
+            answer.append((x * digit_sum) % MOD)
 
-        return res
+        return answer
+
